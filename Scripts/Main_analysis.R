@@ -1,5 +1,5 @@
 ## ------------------------------------------------------------------------
-## 'Taxonomic practice, creativity, and fashion: What's in a spider name?'
+## ''
 ## ------------------------------------------------------------------------
 
 # Mammola, S. et al.
@@ -13,39 +13,99 @@
 
 # Loading R packages ------------------------------------------------------
 
-library("dplyr")
-library("eatATA")
-library("flextable")
-library("ggplot2")
-library("grid")
-library("gridExtra")
-library("stringr")
-library("tidyverse")
-library("magrittr")
-library("officer")
-library("scatterpie")
-library("tidymv")
-library("emmeans")
-library("mgcv")
+if(!require("pacman")) {install.packages("pacman")}
+pacman::p_load("dplyr","ggplot2","tibble")
 
-# Source functions  and plot parameters -------------------------------------------------
+# Script settings -----------------------------------------------------------
+theme_set(theme_bw())
 
-source("Scripts/Functions.R")
+theme_update(
+  legend.background = element_blank(), #No background (legend)
+  plot.background = element_blank(), #No background
+  panel.grid = element_blank(), #No gridlines
+  axis.text  = element_text(size = 10, colour = "grey10"), #Size and color of text
+  axis.title = element_text(size = 12, colour = "grey10") #Size and color of text
+)
 
-# Loading the database ----------------------------------------------------
 
-db <- read.csv(file = "Data/db_etymology.csv", header = TRUE, sep = "\t", as.is = FALSE)
-head(db)
-str(db)
+# Loading the main database ------------------------------------------------
 
-# Calculating number of characters for each name --------------------------
-Ncar_Gen   <- sapply(as.vector(db$genus),nchar) #genus
-Ncar_Sp    <- sapply(as.vector(db$species),nchar) #species
-Ncar_GenSp <- sapply(as.vector(paste(db$genus,db$species,sep='')),nchar) #genus + species
-Letter     <- substr(as.vector(db$species),1, 1)
+# Described associated with this publication:
+# Mammola, S., Viel, N., Amiar, D., Mani, A., Hervé, C., Heard, S. B., ... & Pétillon, J. (2023). Taxonomic practice, creativity and fashion: what’s in a spider name?. Zoological Journal of the Linnean Society, 198(2), 494-508.
+# Check the publication for a full description
+db_names <- read.csv(file = "Data/db_etymology.csv", header = TRUE, sep = "\t", as.is = TRUE)
 
-# Storing the data
-db <- data.frame(db, Ncar_Gen, Ncar_Sp, Ncar_GenSp, GenSp = paste(db$genus,db$species,sep=' '))
+# New database about authors gender and nationality
+db_authors <- read.csv(file = "Data/db_authors.csv", header = TRUE, sep = "\t", as.is = TRUE)
+
+# Cleaning names ----------------------------------------------------------
+
+# Trim white spaces if needed
+db_names$author  <- gsub("\\s+", " ", db_names$author) # Replace multiple spaces with a single space
+db_names$author  <- gsub("\\s+$", "", db_names$author)  # Remove trailing space at the end of the string
+
+db_authors$Name  <- gsub("\\s+", " ", db_authors$Name)  # Replace multiple spaces with a single space
+db_authors$Name  <- gsub("\\s+$", "", db_authors$Name)  # Remove trailing space at the end of the string
+
+# db_authors: Separate the first name and subset
+db_authors <- db_authors |>
+  dplyr::mutate(first_name = sub(",.*| &.*", "", Name)) |> 
+  dplyr::distinct(first_name, .keep_all = TRUE)
+
+# Calculate proportion of etymologies by author ---------------------------
+
+# db_name: Separate the first name and select relevant columns
+db_names <- db_names |>
+  dplyr::mutate(first_name = sub(",.*| &.*", "", author)) |>
+  dplyr::select(first_name,
+                year,
+                size,
+                shape,
+                colour,
+                behaviour,
+                ecology,
+                geography,
+                scientists,
+                otherPeople,
+                modernCulture,
+                pastCulture,
+                others)
+
+
+ncol_db_names <- ncol(db_names)
+
+#Remove no meaning etymologies
+db_names <- db_names[rowSums(db_names[, 3 : ncol_db_names])>0,]
+
+i=1
+for(i in 1:nrow(db_authors)){
+  
+  name_i <- db_authors[i,]$first_name
+  
+  db_names_i <- db_names[db_names$first_name %in% name_i,]
+  
+  colSums_i <- colSums(db_names_i[,3 : ncol_db_names])
+  
+  rowSum_i <- sum(colSums_i)
+  
+}
+
+
+# reorganize the dataset
+
+db2 <- db2 %>% dplyr::select(year,
+                             size,
+                             shape,
+                             colour,
+                             behaviour,
+                             ecology,
+                             geography,
+                             scientists,
+                             otherPeople,
+                             modernCulture,
+                             pastCulture,
+                             others) %>% data.frame
+
 
 # General statistics ------------------------------------------------------
 
