@@ -1,146 +1,51 @@
 Name	Sex	Country	Continent
-Smith	M	United States of America	Asia
-Doblika	?	Bulgaria (probably)	Europe
-Shimojana & Haupt	M	Germany (probably)	Europe
-Scharff	M	Danmark (probably)	Europe
-Schenkel	M	Switzerland (probably)	Europe
-Beladjal & Bosmans	F	Algeria	Africa
+Abrahim & Bonaldo	F	Brazil	S America
+Abrous & Bosmans	F	Tunisia	Africa
+Absolon & Kratochvíl	M	Czech Republic	Europe
+Agnarsson	M	Iceland	Europe
+Agnarsson & Chomitz	M	Iceland	Europe
+Agnarsson & Goh	M	Iceland	Europe
+Agnarsson & Kuntner	M	Iceland	Europe
+Agnarsson & Sargeant	M	Iceland	Europe
+Agnarsson & Van Patten	M	Iceland	Europe
+Agnarsson, Kuntner & Jencik	M	Iceland	Europe
+Agnarsson, Veve & Kuntner	M	Iceland	Europe
+Ahmed, Anam, Saikia, Manthen & Saikia	M	Iceland	Europe
+Ahmed, Sumukha, Khalap, Mohan & Jadhav	M	Iceland	Europe
 Aisen & Ramírez	M	Argentina	S America
-Barone, Werenkraut & Ramírez	F	Argentina	S America
-Canals	M	Argentina	S America
-Carcavallo & Martínez	M	Argentina	S America
-Cavallo & Ferretti	M	Argentina	S America
-Corronca	M	Argentina	S America
-Corronca & Rodríguez	M	Argentina	S America
-Corronca & Rodríguez-Artigas	M	Argentina	S America
-Ferretti	M	Argentina	S America
-Ferretti & Barneche	M	Argentina	S America
-Ferretti, Cavalllo, Chaparro, Ríos-Tamayo, Seimon & West	M	Argentina	S America
-Ferretti, Ríos-Tamayo & Goloboff	M	Argentina	S America
-Ferretti, Soresi, González & Arnedo	M	Argentina	S America
-Galiano	F	Argentina	S America
-Gerschman & Schiapelli	F	Argentina	S America
-Goloboff	M	Argentina	S America
-Goloboff & Platnick	M	Argentina	S America
-González	F	Argentina	S America
-González & Carmen	F	Argentina	S America
-González & Ramírez	F	Argentina	S America
-Grismado	M	Argentina	S America
-Grismado & Carrión	M	Argentina	S America
-Grismado & Piacentini	M	Argentina	S America
-Grismado & Ramírez	M	Argentina	S America
-Grismado & Rubio	M	Argentina	S America
-Grismado, Izquierdo, González M. & Ramírez	M	Argentina	S America
-Grismado, Lopardo & Platnick	M	Argentina	S America
-Holmberg	M	Argentina	S America
-Izquierdo	M	Argentina	S America
-Izquierdo & Grismado	M	Argentina	S America
-Izquierdo & Ramírez	M	Argentina	S America
-Labarque, Pérez-González & Griswold	M	Argentina	S America
-Lopardo	F	Argentina	S America
-Lopardo & Michalik	F	Argentina	S America
-López Carrión & Grismado	M	Argentina	S America
-Nadal & Rubio	F	Argentina	S America
-Nicoletta, Chaparro, Mamani, Ochoa, West & Ferretti	F	Argentina	S America
-Piacentini	M	Argentina	S America
-Piacentini & Grismado	M	Argentina	S America
-Piacentini, Ávila, Pérez & Grismado	M	Argentina	S America
-Piacentini, Grismado & Ramírez	M	Argentina	S America
-Piacentini, Scioscia, Carbajal, Ott, Brescovit & Ramírez	M	Argentina	S America
-Pompozzi	M	Argentina	S America
-Prosen	M	Argentina	S America
-Ramírez	M	Argentina	S America
-Ramírez & González	M	Argentina	S America
-Ramírez & Grismado	M	Argentina	S America
-Ramírez, Lopardo & Bonaldo	M	Argentina	S America
-Ríos-Tamayo	M	Argentina	S America
-Ríos-Tamayo & Goloboff	M	Argentina	S America
-Ríos-Tamayo & Lyle	M	Argentina	S America
-Rubio & Baigorria	M	Argentina	S America
-Rubio & Danişman	M	Argentina	S America
-Rubio & Ramírez	M	Argentina	S America
-Rubio, Argañaraz & Gleiser	M	Argentina	S America
-Rubio, Izquierdo & Piacentini	M	Argentina	S America
-Schiapelli & Gerschman	F	Argentina	S America
-Scioscia	F	Argentina	S America
-Soto & Ramírez	M	Argentina	S America
-Stolar	M	Argentina	S America
-Urtubey & Báez	M	Argentina	S America
-Werenkraut & Ramírez	F	Argentina	S America
-Bradley	M	Australia	Oceania
-Castalanelli, Huey, Hillyer & Harvey	M	Australia	Oceania
-Churchill & Raven	F	Australia	Oceania
-Davies	F	Australia	Oceania
-Davies & Lambkin	F	Australia	Oceania
-Dunn	?	Australia	Oceania
-Dunn & Dunn	?	Australia	Oceania
-Edward & Harvey	F	Australia	Oceania
-Faulder	M	Australia	Oceania
-Framenau	M	Australia	Oceania
-Framenau & Baehr	M	Australia	Oceania
-Framenau & Harms	M	Australia	Oceania
-Framenau & Hudson	M	Australia	Oceania
-Framenau & Leung	M	Australia	Oceania
-Framenau & Scharff	M	Australia	Oceania
-Framenau & Vink	M	Australia	Oceania
-Framenau & Yoo	M	Australia	Oceania
-Framenau, Main, Harvey & Waldock	M	Australia	Oceania
-Framenau, Scharff & Harvey	M	Australia	Oceania
-Goyen	M	Australia	Oceania
-Gray	M	Australia	Oceania
-Gray & Smith	M	Australia	Oceania
-Gray & Thompson	M	Australia	Oceania
-Grimshaw	F	Australia	Oceania
-Grostal	M	Australia	Oceania
-Harrison, Rix, Harvey & Austin	F	Australia	Oceania
-Harvey	M	Australia	Oceania
-Harvey & Baehr	M	Australia	Oceania
-Harvey & Waldock	M	Australia	Oceania
-Harvey, Framenau, Wojcieszek, Rix & Harvey	M	Australia	Oceania
-Hickman	M	Australia	Oceania
-Hirst	M	Australia	Oceania
-Huey, Rix, Wilson, Hillyer & Harvey	M	Australia	Oceania
-Humphrey	F	Australia	Oceania
-Joseph & Framenau	M	Australia	Oceania
-Langlands & Framenau	M	Australia	Oceania
-Main	F	Australia	Oceania
-Main & Framenau	F	Australia	Oceania
-Main & Mascord	F	Australia	Oceania
-Mascord	M	Australia	Oceania
-McKay	M	Australia	Oceania
-Milledge	M	Australia	Oceania
-Moran	M	Australia	Oceania
-Nunn & West	M	Australia	Oceania
-Nunn, West & von Wirth	M	Australia	Oceania
-Pulleine	M	Australia	Oceania
-Rainbow	M	Australia	Oceania
-Rainbow & Pulleine	M	Australia	Oceania
-Raven	M	Australia	Oceania
-Raven & Baehr	M	Australia	Oceania
-Raven & Churchill	M	Australia	Oceania
-Raven & Gray	M	Australia	Oceania
-Raven & Hebron	M	Australia	Oceania
-Raven & Platnick	M	Australia	Oceania
-Raven & Stumkat	M	Australia	Oceania
-Raven & Wishart	M	Australia	Oceania
-Richardson	M	Australia	Oceania
-Richardson & Gunter	M	Australia	Oceania
-Rix	M	Australia	Oceania
-Rix & Harvey	M	Australia	Oceania
-Rix, Bain, Main & Harvey	M	Australia	Oceania
-Rix, Main, Raven & Harvey	M	Australia	Oceania
-Rix, Raven & Harvey	M	Australia	Oceania
-Rix, Roberts & Harvey	M	Australia	Oceania
-Rix, Wilson & Harvey	M	Australia	Oceania
-Santana & Raven	M	Australia	Oceania
-Schubert	M	Australia	Oceania
-Smith & Levi	F	Australia	Oceania
-Tio & Humphrey	M	Australia	Oceania
-Todd	F	Australia	Oceania
-Waldock	M	Australia	Oceania
-Wilson, Rix & Raven	M	Australia	Oceania
-Wishart	M	Australia	Oceania
-Wishart & Rowell	M	Australia	Oceania
+Akpınar	F	Turkey	Asia
+Alayón	M	Cuba	N America
+Alayón & Víquez	M	Cuba	N America
+Alderweireldt	M	Belgium	Europe
+Alderweireldt & Jocqué	M	Belgium	Europe
+Alicata	M	Italy	Europe
+Alicata & Cantarella	M	Italy	Europe
+Almeida-Silva, Brescovit & Dias	F	Brazil	S America
+Almeida-Silva, Griswold & Brescovit	F	Brazil	S America
+Almeida, Salvatierra & de Morais	M	Brazil	S America
+Álvares, Loyola & De Maria	M	Brazil	S America
+Álvarez-Padilla	M	Mexico	N America
+Álvarez-Padilla, Kallal & Hormiga	M	Mexico	N America
+Álvarez-Padilla, Ubick & Griswold	M	Mexico	N America
+Andreeva	F	Russia	Europe
+Andreeva & Tyschchenko	F	Russia	Europe
+Andreeva, Hęciak & Prószyński	F	Poland	Europe
+Andriamalala	F	United States of America	N America
+Archer	M	United States of America	N America
+Arita	M	Japan	Asia
+Arnedo & Ribera	M	Spain	Europe
+Arnedo, Oromí & Ribera	M	Spain	Europe
+Audouin	M	France	Europe
+Ausserer	M	Austria	Europe
+Azarkina	F	Russia	Europe
+Azarkina & Foord	F	Russia 	Europe
+Azarkina & Komnenov	F	Russia 	Europe
+Azarkina & Zamani	F	Russia 	Europe
+Azarkina, Wesołowska & Russell-Smith	F	Russia	Europe
+Baba	M	Japan	Asia
+Baba & Tanikawa	M	Japan	Asia
+Bacelar	F	Portugal	Europe
+Baehr	F	Germany	Europe
 Baehr & Baehr	F	Australia 	Oceania
 Baehr & Churchill	F	Australia 	Oceania
 Baehr & Harvey	F	Australia 	Oceania
@@ -155,41 +60,102 @@ Baehr, Harvey & Smith	F	Australia 	Oceania
 Baehr, Raven & Harms	F	Australia 	Oceania
 Baehr, Raven & Hebron	F	Australia 	Oceania
 Baehr, Schubert & Harms	F	Australia 	Oceania
-Ausserer	M	Austria	Europe
-Freudenschuss & Seiter	M	Austria	Europe
-Freudenschuss, Grabolle & Krehenwinkel	M	Austria	Europe
-Hepner & Paulus	M	Austria	Europe
-Huber	M	Austria	Europe
-Huber & Brescovit	M	Austria	Europe
-Huber & Carvalho	M	Austria	Europe
-Huber & Dimitrov	M	Austria	Europe
-Huber & Fischer	M	Austria	Europe
-Huber & Pérez	M	Austria	Europe
-Huber & Warui	M	Austria	Europe
-Huber, Pérez & Baptista	M	Austria	Europe
-Knoflach	F	Austria	Europe
-Knoflach & van Harten	F	Austria	Europe
-Kropf	M	Austria	Europe
-Milasowszky, Bauder & Hepner	M	Austria	Europe
-Reimoser	M	Austria	Europe
-Rossi	M	Austria	Europe
-Seiter & Wesołowska	M	Austria	Europe
-Thaler	M	Austria	Europe
-Thaler & Knoflach	M	Austria	Europe
-Thaler & Steinberger	M	Austria	Europe
-Thaler, Buchar & Kůrka	M	Austria	Europe
-Stoliczka	M	Austrohungarian, but served for the UK	Europe
-Guseinov, Marusik & Koponen	M	Azerbaijan	Asia
+Baert	M	Belgium	Europe
+Baert & Maelfait	M	Belgium	Europe
+Bakhvalov	M	Russia	Europe
+Ballarin & Pantini	M	Italy	Europe
+Ballarin, Marusik, Omelko & Koponen	M	Italy	Europe
+Balogh	M	Hungary	Europe
+Balogh & Loksa	M	Hungary	Europe
+Banks	M	United States of America	N America
+Bao & Yin	F	China	Asia
+Bao, Bai & Tu	F	China	Asia
+Baptista	M	Brazil	S America
+Baptista, Castanheira & do Prado	M	Brazil	S America
+Barensteiner & Wehinger	F	Germany	Europe
+Barnes	M	United States of America	N America
+Barone, Werenkraut & Ramírez	F	Argentina	S America
+Barrientos	M	Spain	Europe
+Barrion	M	Philippines	Asia
+Barrion & Barrion-Dupo	M	Philippines	Asia
+Barrion & Litsinger	M	Philippines	Asia
+Barrion-Dupo	F	Philippines	Asia
+Barrion-Dupo & Barrion	F	Philippines	Asia
+Barrion-Dupo, Barrion & Heong	F	Philippines	Asia
+Barrion, Barrion-Dupo & Heong	M	Philippines	Asia
+Barrows	M	United States of America	N America
+Barrows & Ivie	M	United States of America	N America
+Bastawade	M	India	Asia
+Basu	M	India	Asia
+Basumatary & Brahma	M	India	Asia
+Bauab	F	Brazil	S America
+Bauab & Soares	F	Brazil	S America
+Bauchhenss & Uhlenhaut	F	Germany	Europe
+Bayer	M	Germany	Europe
+Bayer & Jäger	M	Germany	Europe
+Bayer, Foelix & Alderweireldt	M	Germany	Europe
+Bayram, Kunt & Yağmur	M	Turkey	Asia
+Beatty	M	United States of America	N America
+Beatty & Berry	M	United States of America	N America
+Becker	M	Belgium	Europe
+Beladjal & Bosmans	F	Algeria	Africa
+Benjamin	M	Sri Lanka	Asia
+Benjamin & Kanesharatnam	M	Sri Lanka	Asia
+Bennett	M	Canada	N America
+Benoit	M	France	Europe
+Benoit & Emerit	M	France	Europe
+Berland	M	France	Europe
+Berland & Millot	M	France	Europe
+Berry, Beatty & Prószyński	M	United States of America	N America
+Bertani	M	Brazil	S America
+Bertani & Huff	M	Brazil	S America
+Bertani & Leal	M	Brazil	S America
+Bertani, Fukushima & Nagahama	M	Brazil	S America
+Bertani, Nagahama & Fukushima	M	Brazil	S America
+Bertani, von Schimonsky & Gallão	M	Brazil	S America
+Bertkau	M	Gemany	Europe
+Bhandari & Gajbe	F	India	Asia
+Birabén	M	Chile	S America
+Bishop & Crosby	M	United States of America	N America
 Biswas	M	Bangladesh	Asia
 Biswas & Begum	M	Bangladesh	Asia
 Biswas & Biswas	M	Bangladesh	Asia
 Biswas & Raychaudhuri	M	Bangladesh	Asia
 Biswas, Kundu, Kundu, Saha & Raychaudhuri	M	Bangladesh	Asia
-Alderweireldt	M	Belgium	Europe
-Alderweireldt & Jocqué	M	Belgium	Europe
-Baert	M	Belgium	Europe
-Baert & Maelfait	M	Belgium	Europe
-Becker	M	Belgium	Europe
+Bjørn	M	Denmark	Europe
+Blackwall	M	United Kingdom	Europe
+Blagoev & Dondale	M	Bulgaria	Europe
+Blandin	M	France	Europe
+Blest	M	Germany	Europe
+Blest & Vink	M	Germany	Europe
+Blick	M	Germany	Europe
+Bodkhe, Manthen & Tanikawa	M	India	Asia
+Bodkhe, Uniyal, Kamble, Manthen, Santape & Chikhale	M	India	Asia
+Bohdanowicz	M	Poland	Europe
+Bohdanowicz & Prószyński	M	Poland	Europe
+Bolzern	M	Switzerland	Europe
+Bolzern & Hänggi	M	Switzerland	Europe
+Bolzern & Platnick	M	Switzerland	Europe
+Bolzern, Burckhardt & Hänggi	M	Switzerland	Europe
+Bolzern, Crespo & Cardoso	M	Switzerland	Europe
+Bolzern, Pantini & Isaia	M	Switzerland	Europe
+Bonaldo	M	Brazil	S America
+Bonaldo & Brescovit	M	Brazil	S America
+Bonaldo & Buckup	M	Brazil	S America
+Bonaldo & Lise	M	Brazil	S America
+Bonaldo & Saturnino	M	Brazil	S America
+Bonaldo, Brescovit & Rheims	M	Brazil	S America
+Bonaldo, Rheims & Brescovit	M	Brazil	S America
+Bonaldo, Saturnino, Ramírez & Brescovit	M	Brazil	S America
+Bond	M	United States of America	N America
+Bond & Godwin	M	United States of America	N America
+Bond & Opell	M	United States of America	N America
+Bond & Platnick	M	United States of America	N America
+Bond & Taylor	M	United States of America	N America
+Bosco & Chuang	F	United States of America	N America
+Bösenberg	M	Germany	Europe
+Bösenberg & Lenz	M	Germany	Europe
+Bösenberg & Strand	M	Germany	Europe
 Bosmans	M	Belgium	Europe
 Bosmans & Beladjal	M	Belgium	Europe
 Bosmans & Blick	M	Belgium	Europe
@@ -207,52 +173,9 @@ Bosmans & Van Hove	M	Belgium	Europe
 Bosmans & Van Keer	M	Belgium	Europe
 Bosselaers	M	Belgium	Europe
 Bosselaers & Jocqué	M	Belgium	Europe
-de Blauwe	F	Belgium	Europe
-Decae	M	Belgium	Europe
-Decae & Cardoso	M	Belgium	Europe
-Decae, Cardoso & Selden	M	Belgium	Europe
-Decae, Colombo & Manunza	M	Belgium	Europe
-Fannes	M	Belgium	Europe
-Fannes & Jocqué	M	Belgium	Europe
-Giltay	M	Belgium	Europe
-Henrard & Jocqué	M	Belgium	Europe
-Jocqué	M	Belgium	Europe
-Jocqué & Baehr	M	Belgium	Europe
-Jocqué & Baert	M	Belgium	Europe
-Jocqué & Bosmans	M	Belgium	Europe
-Jocqué & Bosselaers	M	Belgium	Europe
-Jocqué & Henrard	M	Belgium	Europe
-Jocqué & Scharff	M	Belgium	Europe
-Jocqué & van Harten	M	Belgium	Europe
-Laurent	M	Belgium	Europe
-Pett & Jocqué	M	Belgium	Europe
-Van Keer	M	Belgium	Europe
-Van Keer & Bosmans	M	Belgium	Europe
-Versteirt	F	Belgium	Europe
-Versteirt, Baert & Jocqué	F	Belgium	Europe
-Abrahim & Bonaldo	F	Brazil	S America
-Almeida, Salvatierra & de Morais	M	Brazil	S America
-Almeida-Silva, Brescovit & Dias	F	Brazil	S America
-Almeida-Silva, Griswold & Brescovit	F	Brazil	S America
-Álvares, Loyola & De Maria	M	Brazil	S America
-Baptista	M	Brazil	S America
-Baptista, Castanheira & do Prado	M	Brazil	S America
-Bauab	F	Brazil	S America
-Bauab & Soares	F	Brazil	S America
-Bertani	M	Brazil	S America
-Bertani & Huff	M	Brazil	S America
-Bertani & Leal	M	Brazil	S America
-Bertani, Fukushima & Nagahama	M	Brazil	S America
-Bertani, Nagahama & Fukushima	M	Brazil	S America
-Bertani, von Schimonsky & Gallão	M	Brazil	S America
-Bonaldo	M	Brazil	S America
-Bonaldo & Brescovit	M	Brazil	S America
-Bonaldo & Buckup	M	Brazil	S America
-Bonaldo & Lise	M	Brazil	S America
-Bonaldo & Saturnino	M	Brazil	S America
-Bonaldo, Brescovit & Rheims	M	Brazil	S America
-Bonaldo, Rheims & Brescovit	M	Brazil	S America
-Bonaldo, Saturnino, Ramírez & Brescovit	M	Brazil	S America
+Bourne	M	Switzerland	Europe
+Bradley	M	Australia	Oceania
+Brændegaard	M	Denmark	Europe
 Braga-Pereira & Santos	M	Brazil	S America
 Braul & Lise	M	Brazil	S America
 Brescovit	M	Brazil	S America
@@ -270,150 +193,67 @@ Brescovit, Rheims & Ott	M	Brazil	S America
 Brescovit, Rheims & Santos	M	Brazil	S America
 Brescovit, Sánchez-Ruiz & Alayón	M	Brazil	S America
 Brescovit, Sánchez-Ruiz & Bonaldo	M	Brazil	S America
+Brignoli	M	Italy	Europe
+Bristowe	M	United Kingdom	Europe
+Brito Capello	M	Portugal	Europe
+Brullé	M	France	Europe
+Bryant	F	United States of America	N America
+Buchar	M	Czech Republic	Europe
 Bücherl	M	Brazil	S America
 Bücherl, Timotheo & Lucas	M	Brazil	S America
 Buckup & Brescovit	F	Brazil	S America
 Buckup & Marques	F	Brazil	S America
 Buckup, Marques & Rodrigues	F	Brazil	S America
-Candiani & Bonaldo	M	Brazil	S America
-Candiani, Bonaldo & Brescovit	M	Brazil	S America
-Castanheira & Baptista	M	Brazil	S America
-Castanheira, Pérez-González, do Prado & Baptista	M	Brazil	S America
-Chavari & Brescovit	M	Brazil	S America
-de Andrade, Bertani, Nagahama & Barbosa	F	Brazil	S America
-De Souza & Bonaldo	M	Brazil	S America
-Estol, Marta & Rodrigues	F	Brazil	S America
-Faleiro & Santos	F	Brazil	S America
-Feitosa & Bonaldo	M	Brazil	S America
-Fukushima & Bertani	F	Brazil	S America
-Fukushima, Bertani & da Silva	F	Brazil	S America
-Fukushima, de Andrade & Bertani	F	Brazil	S America
-García, Martínez & Ahumada-C.	M	Brazil	S America
-Garcia-Neto	F	Brazil	S America
-Giroti & Brescovit	M	Brazil	S America
-Gonzalez-Filho, Brescovit & Lucas	M	Brazil	S America
-Gonzalez-Filho, Lucas & Brescovit	M	Brazil	S America
-Guadanucci	M	Brazil	S America
-Guadanucci & Indicatti	M	Brazil	S America
-Guadanucci & Silva	M	Brazil	S America
-Guadanucci & Weinmann	M	Brazil	S America
-Guadanucci, Perafán & Valencia-Cuéllar	M	Brazil	S America
-Indicatti, Chavari, Zucatelli-Júnior, Lucas & Brescovit	M	Brazil	S America
-Indicatti, Lucas & Brescovit	M	Brazil	S America
-Indicatti, Lucas, Guadanucci & Yamamoto	M	Brazil	S America
-Indicatti, Lucas, Ott & Brescovit	M	Brazil	S America
-Lemos & Brescovit	M	Brazil	S America
-Lise & Silva	M	Brazil	S America
-Lise, Kesster & Silva	M	Brazil	S America
-Lise, Ott & Rodrigues	M	Brazil	S America
-Lucas	M	Brazil	S America
-Lucas & Indicatti	F	Brazil	S America
-Machado	M	Brazil	S America
-Machado & Brescovit	M	Brazil	S America
-Machado & Ribera	M	Brazil	S America
-Machado, Brescovit & Francisco	M	Brazil	S America
-Magalhaes	M	Brazil	S America
-Magalhaes & Grismado	M	Brazil	S America
-Magalhaes & Ramírez	M	Brazil	S America
-Magalhaes, Brescovit & Santos	M	Brazil	S America
-Magalhaes, Fernandes, Ramírez & Bonaldo	M	Brazil	S America
-Martins & Bertani	F	Brazil	S America
-Martins, Knysak & Bertani	F	Brazil	S America
-Mello-Leitão	M	Brazil	S America
-Miglio & Bonaldo	F	Brazil	S America
-Miglio, Harms, Framenau & Harvey	F	Brazil	S America
-Moenkhaus	M	Brazil	S America
-Moss & Bonaldo	F	Brazil	S America
-Motta & Levi	M	Brazil	S America
-Nogueira & Dias	M	Brazil	S America
-Nogueira, Pena-Barbosa, Venticinque & Brescovit	M	Brazil	S America
-Oliveira & Brescovit	M	Brazil	S America
-Ott	M	Brazil	S America
-Ott & Harvey	M	Brazil	S America
-Ott & Höfer	M	Brazil	S America
-Ott & Lise	M	Brazil	S America
-Passanha & Brescovit	M	Brazil	S America
-Pereira-Filho, Saturnino & Bonaldo	M	Brazil	S America
-Piza	M	Brazil	S America
-Poeta	F	Brazil	S America
-Poeta, Marques & Buckup	F	Brazil	S America
-Polotow & Brescovit	F	Brazil	S America
-Polotow & Griswold	F	Brazil	S America
-Revollo, da Silva & Bertani	F	Brazil	S America
-Rheims	F	Brazil	S America
-Rheims & Alayón	F	Brazil	S America
-Rheims & Brescovit	F	Brazil	S America
-Rheims, Brescovit & van Harten	F	Brazil	S America
-Rheims, Santos & van Harten	F	Brazil	S America
-Rodrigues	M	Brazil	S America
-Rodrigues & Bonaldo	M	Brazil	S America
-Rodrigues & Brescovit	M	Brazil	S America
-Rodrigues & Ott	M	Brazil	S America
-Rodrigues & Poeta	M	Brazil	S America
-Rodrigues, Lemos & Brescovit	M	Brazil	S America
-Ruiz	M	Brazil	S America
-Ruiz & Brescovit	M	Brazil	S America
-Ruiz & Maddison	M	Brazil	S America
-Santos	M	Brazil	S America
-Santos & Gonzaga	M	Brazil	S America
-Santos & Rheims	M	Brazil	S America
-Santos & Santos	F	Brazil	S America
-Saturnino & Bonaldo	F	Brazil	S America
-Saturnino, Rodrigues & Bonaldo	F	Brazil	S America
-Silva	M	Brazil	S America
-Silva & Carico	M	Brazil	S America
-Silva & Griswold	M	Brazil	S America
-Silva & Lise	M	Brazil	S America
-Silva, Lise & Carico	M	Brazil	S America
-Silva-Junior & Bonaldo	M	Brazil	S America
-Silva-Moreira	M	Brazil	S America
-Soares	M	Brazil	S America
-Soares & Camargo	M	Brazil	S America
-Teixeira & Machado	M	Brazil	S America
-Lucas, Indicatti, Brescovit & Francisco	F	Brazil	S America
-Dyal	M	British India (publication on Pakistania Punjab)	Asia
-Blagoev & Dondale	M	Bulgaria	Europe
-Deltshev	M	Bulgaria	Europe
-Deltshev & Indzhov	M	Bulgaria	Europe
-Deltshev & Lazarov	M	Bulgaria	Europe
-Dimitrov	M	Bulgaria	Europe
-Dimitrov & Deltshev	M	Bulgaria	Europe
-Dimitrov & Hormiga	M	Bulgaria	Europe
-Dimitrov & Lazarov	M	Bulgaria	Europe
-Dimitrov & Ribera	M	Bulgaria	Europe
-Dimitrov, Deltshev & Lazarov	M	Bulgaria	Europe
-Drensky	M	Bulgaria	Europe
-Lazarov	M	Bulgaria	Europe
-Lazarov & Dimitrov	M	Bulgaria	Europe
-Lazarov & Naumova	M	Bulgaria	Europe
-Naumova	F	Bulgaria	Europe
-Nzigidahera & Jocqué	M	Burundi	Africa
-Nzigidahera, Desnyder & Jocqué	M	Burundi	Africa
-Bennett	M	Canada	N America
-Dondale	M	Canada	N America
-Dondale & Redner	M	Canada	N America
-Dupérré	F	Canada	N America
-Dupérré & Paquin	F	Canada	N America
-Dupérré & Tapia	F	Canada	N America
-Kurata	M	Canada	N America
-Leech	M	Canada	N America
-Maddison	M	Canada	N America
-Maddison & Szűts	M	Canada	N America
-Paquin & Dupérré	M	Canada	N America
-Paquin, Dupérré, Buckle & Crawford	M	Canada	N America
-Paquin, Dupérré, Buckle & Lewis	M	Canada	N America
-West	M	Canada	N America
-West & Nunn	M	Canada	N America
-West, Nunn & Hogg	M	Canada	N America
-Birabén	M	Chile	S America
+Bullmer, Thierer-Lutz & Schmidt	M	Germany	Europe
+Burger	M	United States of America	N America
 Bustamante & Ruiz	M	Chile	S America
 Bustamante & Scioscia	M	Chile	S America
-Casanueva	F	Chile	S America
-Montenegro (Vargas) & Aguilera	M	Chile	S America
-Zapfe	F	Chile	S America
-Bao & Yin	F	China	Asia
-Bao, Bai & Tu	F	China	Asia
+Butler	M	United Kingdom	Europe
+C. Koch	M	Germany	Europe
+C. L. Koch	M	Germany	Europe
+Cabra-García & Brescovit	M	Colombia	S America
+Cala-Riquelme	M	Colombia	S America
+Cala-Riquelme & Agnarsson	M	Colombia	S America
+Cala-Riquelme, Quijano-Cuervo & Sabogal-Gonzáles	M	Colombia	S America
+Caleb	M	India	Asia
+Caleb & Mathai	M	India	Asia
+Caleb, Chatterjee, Tyagi, Kundu & Kumar	M	India	Asia
+Caleb, Mungkung & Mathai	M	India	Asia
+Canals	M	Argentina	S America
+Canard	M	France	Europe
+Candia-Ramírez & Valdez-Mondragón	F	Mexico	N America
+Candiani & Bonaldo	M	Brazil	S America
+Candiani, Bonaldo & Brescovit	M	Brazil	S America
+Canestrini	M	Italy	Europe
+Cantarella	F	Italy	Europe
+Cantarella & Alicata	F	Italy	Europe
 Cao & Li	M	China	Asia
+Caporiacco	M	Italy	Europe
+Carcavallo & Martínez	M	Argentina	S America
+Carico	M	United States of America	N America
+Carico & Minch	M	United States of America	N America
+Casanueva	F	Chile	S America
+Casemir	M	Germany	Europe
+Castalanelli, Huey, Hillyer & Harvey	M	Australia	Oceania
+Castanheira & Baptista	M	Brazil	S America
+Castanheira, Pérez-González, do Prado & Baptista	M	Brazil	S America
+Cavallo & Ferretti	M	Argentina	S America
+Chamberlin	M	United States of America	N America
+Chamberlin & Gertsch	M	United States of America	N America
+Chamberlin & Ivie	M	United States of America	N America
+Chamberlin & Woodbury	M	United States of America	N America
+Chamé-Vázquez & Ibarra-Núñez	M	Mexico	N America
+Chamé-Vázquez, Ibarra-Núñez & Jiménez	M	Mexico	N America
+Chami-Kranon & Likhitrakarn	M	Thailand	Asia
+Chapin	M	United States of America	N America
+Charitonov	M	Russia	Europe
+Charpentier	M	United Kingdom	Europe
+Chatzaki	F	Greece	Europe
+Chatzaki & Arnedo	F	Greece	Europe
+Chatzaki & Komnenov	F	Greece	Europe
+Chatzaki & Russell-Smith	F	Greece	Europe
+Chatzaki & Seyyar	F	Greece	Europe
+Chavari & Brescovit	M	Brazil	S America
 Chen & Li	M	China	Asia
 Chen & Yin	M	China	Asia
 Chen & Zhao	M	China	Asia
@@ -422,25 +262,486 @@ Chen, Gao & Zhu	M	China	Asia
 Chen, Jiang & Yang	M	China	Asia
 Chen, Song & Kim	M	China	Asia
 Chen, Yu & Guo	M	China	Asia
+Chennappaiya	M	India	Asia
+Chickering	M	United States of America	N America
+Chida & Tanikawa	M	Japan	Asia
+Chikuni	M	Japan	Asia
+Chomitz & Agnarsson	M	United States of America	N America
+Chrysanthus	M	The Netherlands	Europe
+Churchill & Raven	F	Australia	Oceania
+Chyzer	M	Slovaquia	Europe
+Clark & Benoit	M	United Kingdom	Europe
+Cockerell	M	United States of America	N America
+Coddington	M	United States of America	N America
+Coddington, Kuntner & Opell	M	United States of America	N America
+Cokendolpher	M	United States of America	N America
+Cokendolpher & Reddell	M	United States of America	N America
+Cokendolpher, Peck & Niwa	M	United States of America	N America
+Collett	M	Norway	Europe
+Comellini	M	Switzerland	Europe
+Cooke	M	United Kingdom	Europe
+Cornic	M	France	Europe
+Corronca	M	Argentina	S America
+Corronca & Rodríguez	M	Argentina	S America
+Corronca & Rodríguez-Artigas	M	Argentina	S America
+Costa	M	Uruguay	S America
+Costa & Capocasale	M	Uruguay	S America
+Costa & Ruiz	F	Uruguay	S America
+Coyle	M	United States of America	N America
+Coyle & McGarity	M	United States of America	N America
+Crane	F	United States of America	N America
+Crawford & Edwards	M	United States of America	N America
+Crews	F	United States of America	N America
+Crews & Harvey	F	United States of America	N America
+Croeser	M	South Africa	Africa
+Crosby	M	United States of America	N America
+Crosby & Bishop	M	United States of America	N America
+Cutler	M	United States of America	N America
+Cutler & Müller	M	United States of America	N America
+Dahl	F	born in Russian Empire-Ukraine but worked in Germany	Europe
+Dalmas	M	France	Europe
+Danilov	M	Russia	Europe
+Danişman & Coşar	M	Turkey	Asia
+Danişman, Sancak, Erdek & Coşar	M	Turkey	Asia
+Dankittipakul	M	Thailand	Asia
+Dankittipakul & Jocqué	M	Thailand	Asia
+Dankittipakul & Schwendinger	M	Thailand	Asia
+Dankittipakul & Singtripop	M	Thailand	Asia
+Dankittipakul & Wang	M	Thailand	Asia
+Dankittipakul & Zhang	M	Thailand	Asia
+Dankittipakul, Jocqué & Singtripop	M	Thailand	Asia
+Dankittipakul, Sonthichai & Wang	M	Thailand	Asia
+Dankittipakul, Tavano & Singtripop	M	Thailand	Asia
+Das, Malik & Vidhel (/!\ The first author is Vidhel, a student, mentored by Das)	M	India	Asia
+Davies	F	Australia	Oceania
+Davies & Lambkin	F	Australia	Oceania
+Dawidowicz & Wesołowska	F	Poland	Europe
+de Andrade, Bertani, Nagahama & Barbosa	F	Brazil	S America
+de Blauwe	F	Belgium	Europe
+De Souza & Bonaldo	M	Brazil	S America
+Decae	M	Belgium	Europe
+Decae & Cardoso	M	Belgium	Europe
+Decae, Cardoso & Selden	M	Belgium	Europe
+Decae, Colombo & Manunza	M	Belgium	Europe
+Deeleman-Reinhold	F	The Netherlands	Europe
+Deeleman-Reinhold & Platnick	F	The Netherlands	Europe
+Deeleman-Reinhold & van Harten	F	The Netherlands	Europe
+Deltshev	M	Bulgaria	Europe
+Deltshev & Indzhov	M	Bulgaria	Europe
+Deltshev & Lazarov	M	Bulgaria	Europe
+Demir, Seyyar & Türker	M	Turkey	Asia
+Demir, Topçu & Seyyar	M	Turkey	Asia
+Demir, Topçu & Türkes	M	Turkey	Asia
+Denis	M	France	Europe
+Di Franco	F	Italy	Europe
+Dierkens	M	France	Europe
+Dimitrov	M	Bulgaria	Europe
+Dimitrov & Deltshev	M	Bulgaria	Europe
+Dimitrov & Hormiga	M	Bulgaria	Europe
+Dimitrov & Lazarov	M	Bulgaria	Europe
+Dimitrov & Ribera	M	Bulgaria	Europe
+Dimitrov, Deltshev & Lazarov	M	Bulgaria	Europe
+Dippenaar & Meyer	F	South Africa	Africa
+Dippenaar-Schoeman	F	South Africa	Africa
+Doblika	?	Bulgaria (probably)	Europe
+Dobroruka	M	Czech Republic	Europe
+Doleschall	M	Hungary	Europe
+Dondale	M	Canada	N America
+Dondale & Redner	M	Canada	N America
+Dönitz	M	Germany	Europe
+Dönitz & Strand	M	Germany	Europe
+Draney, Milne, Ulyshen & Madriz	M	United States of America	N America
+Drensky	M	Bulgaria	Europe
+Dresco	M	France	Europe
+Dresco & Canard	M	France	Europe
+Dumitrescu	F	Romania	Europe
+Dumitrescu & Georgescu	F	Romania	Europe
+Dunin	M	Russia	Europe
+Dunin, Buchar & Absolon	M	Russia	Europe
+Dunn	?	Australia	Oceania
+Dunn & Dunn	?	Australia	Oceania
+Dupérré	F	Canada	N America
+Dupérré & Paquin	F	Canada	N America
+Dupérré & Tapia	F	Canada	N America
+Durán-Barrón, Pérez & Brescovit	M	Mexico	N America
+Dyal	M	British India (publication on Pakistania Punjab)	Asia
+Edmunds & Prószyński	M	United Kingdom	Europe
+Edward & Harvey	F	Australia	Oceania
+Edwards	M	United States of America	N America
+Efimik	M	Russia	Europe
+Eichenberger	F	Switzerland	Europe
+El-Hennawy	M	Egypt	Africa
+Emerit	M	France	Europe
+Emerit & Lopez	M	France	Europe
+Emerton	M	United States of America	N America
+Engelbrecht & Prendini	M	South Africa	Africa
+Ermolajev	?	Russia	Europe
+Eskov	M	Russia	Europe
+Eskov & Marusik	M	Russia	Europe
+Esposito & Agnarsson	F	United States of America	N America
+Estol, Marta & Rodrigues	F	Brazil	S America
+Estrada-Alvarez	M	Mexico	N America
+Estrada-Alvarez & Locht	M	Mexico	N America
+Esyunin	M	Russia	Europe
+Esyunin & Efimik	M	Russia	Europe
+Esyunin & Tuneva	M	Russia	Europe
+Esyunin & Zamani	M	Russia	Europe
+Evtushenko	M	Ukaine	Europe
+Exline	F	United States of America	N America
+Exline & Levi	F	United States of America	N America
+F. O. Pickard-Cambridge	M	United Kingdom	Europe
 F. Y. Li & S. Q. Li	F	China	Asia
 F. Y. Li, S. Q. Li & Jäger	F	China	Asia
+Fage	M	France	Europe
+Fage & Kratochvíl	M	France	Europe
+Faleiro & Santos	F	Brazil	S America
+Fannes	M	Belgium	Europe
+Fannes & Jocqué	M	Belgium	Europe
+Fardiansah & Dupérré	M	Germany	Europe
+Faulder	M	Australia	Oceania
+Feitosa & Bonaldo	M	Brazil	S America
 Feng & Lin	F	China	Asia
 Feng, Zhang, Wu, Ma, T. B. Yang, Li & Z. Z. Yang	F	China	Asia
+Ferrández	M	Spain	Europe
+Ferretti	M	Argentina	S America
+Ferretti & Barneche	M	Argentina	S America
+Ferretti, Cavalllo, Chaparro, Ríos-Tamayo, Seimon & West	M	Argentina	S America
+Ferretti, Ríos-Tamayo & Goloboff	M	Argentina	S America
+Ferretti, Soresi, González & Arnedo	M	Argentina	S America
+Fet	M	USSR-Russia_Turkmenistan, but United States of America since 80th	N America
+Fitzgerald & Sirvid	M	New Zealand	Oceania
+FitzPatrick	M	Zimbabwe	Africa
+Fomichev	M	Russia	Europe
+Fomichev & Logunov	M	Russia	Europe
+Fomichev & Marusik	M	Russia	Europe
+Fomichev, Marusik & Koponen	M	Russia	Europe
+Fomichev, Marusik & Sidorov	M	Russia	Europe
+Foord	M	South Africa	Africa
+Foord & Dippenaar-Schoeman	M	South Africa	Africa
+Forster	M	New Zealand	Oceania
+Forster & Platnick	M	New Zealand	Oceania
+Forster & Wilton	M	New Zealand	Oceania
+Fourie, Haddad & Jocqué	M	South Africa	Africa
+Fox	M	United States of America	N America
+Frade & Bacelar	M	Portugal	Europe
+Framenau	M	Australia	Oceania
+Framenau & Baehr	M	Australia	Oceania
+Framenau & Harms	M	Australia	Oceania
+Framenau & Hudson	M	Australia	Oceania
+Framenau & Leung	M	Australia	Oceania
+Framenau & Scharff	M	Australia	Oceania
+Framenau & Vink	M	Australia	Oceania
+Framenau & Yoo	M	Australia	Oceania
+Framenau, Main, Harvey & Waldock	M	Australia	Oceania
+Framenau, Scharff & Harvey	M	Australia	Oceania
+Franganillo	M	Cuba	N America
+Freudenschuss & Seiter	M	Austria	Europe
+Freudenschuss, Grabolle & Krehenwinkel	M	Austria	Europe
+Frick & Isaia	M	Switzerland	Europe
+Frick & Scharff	M	Switzerland	Europe
 Fu & Zhu	F	China	Asia
 Fu, Jin & Zhang	F	China	Asia
+Fuhn & Polenec	M	Romania, Yugostavia	Europe
+Fukushima & Bertani	F	Brazil	S America
+Fukushima, Bertani & da Silva	F	Brazil	S America
+Fukushima, de Andrade & Bertani	F	Brazil	S America
+Gabriel	M	United Kingdom	Europe
+Gabriel & Sherwood	M	United Kingdom	Europe
+Gajbe	M	India	Asia
+Gajbe & Gajbe	M	India	Asia
+Gajbe & Rane	M	India	Asia
+Galiano	F	Argentina	S America
+Gallon	M	United Kingdom	Europe
+Gallon, Gabriel & Tansley	M	United Kingdom	Europe
+Galvis	M	Colombia	S America
+Galvis & Moreno	M	Colombia	S America
 Gan, Mi, Irfan, Peng, Ran & Zhan	F	China	Asia
 Gan, Wang & Peng	F	China	Asia
 Gao & Li	F	China	Asia
+Garcia-Neto	F	Brazil	S America
+García-Villafuerte	M	Mexico	N America
+García-Villafuerte & Locht	M	Mexico	N America
+García, Martínez & Ahumada-C.	M	Brazil	S America
+Gardzińska & Zabka	F	Poland	Europe
+Gasparo	M	Italy	Europe
+Gasparo & Arnedo	M	Italy	Europe
+Georgescu	F	Romania	Europe
+Gerschman & Schiapelli	F	Argentina	S America
+Gertsch	M	United States of America	N America
+Gertsch & Archer	M	United States of America	N America
+Gertsch & Davis	M	United States of America	N America
+Gertsch & Ennik	M	United States of America	N America
+Gertsch & Ivie	M	United States of America	N America
+Gertsch & Jellison	M	United States of America	N America
+Gertsch & Mulaik	M	United States of America	N America
+Gertsch & Peck	M	United States of America	N America
+Gertsch & Platnick	M	United States of America	N America
+Gertsch & Riechert	M	United States of America	N America
+Gertsch & Wallace	M	United States of America	N America
+Gertsch & Zapfe	M	United States of America	N America
+Ghafoor & Alvi	M	Pakistan	Asia
+Gillespie	F	United States of America	N America
+Gillespie & Rivera	F	United States of America	N America
+Giltay	M	Belgium	Europe
+Girard	M	France	Europe
+Giroti & Brescovit	M	Brazil	S America
+Goloboff	M	Argentina	S America
+Goloboff & Platnick	M	Argentina	S America
 Gong	M	China	Asia
+González	F	Argentina	S America
+González & Carmen	F	Argentina	S America
+González & Ramírez	F	Argentina	S America
+Gonzalez-Filho, Brescovit & Lucas	M	Brazil	S America
+Gonzalez-Filho, Lucas & Brescovit	M	Brazil	S America
+González-Sponga	M	Venezuela	S America
+Goyen	M	Australia	Oceania
+Grall & Jäger	F	Germany	Europe
+Grasshoff	M	Germany	Europe
+Gravely	M	India	Asia
+Gray	M	Australia	Oceania
+Gray & Smith	M	Australia	Oceania
+Gray & Thompson	M	Australia	Oceania
+Gregorič	M	Slovenia	Europe
+Gregorič, Blackledge, Agnarsson & Kuntner	M	Slovenia	Europe
+Griffith	M	United Kingdom	Europe
+Grimshaw	F	Australia	Oceania
+Grismado	M	Argentina	S America
+Grismado & Carrión	M	Argentina	S America
+Grismado & Piacentini	M	Argentina	S America
+Grismado & Ramírez	M	Argentina	S America
+Grismado & Rubio	M	Argentina	S America
+Grismado, Izquierdo, González M. & Ramírez	M	Argentina	S America
+Grismado, Lopardo & Platnick	M	Argentina	S America
+Griswold	M	South Africa	Africa
+Griswold & Ledford	M	United States of America	N America
+Griswold & Platnick	M	United States of America	N America
+Griswold, Audisio & Ledford	M	United States of America	N America
+Griswold, Long & Hormiga	M	United States of America	N America
+Griswold, Wood & Carmichael	M	United States of America	N America
+Grostal	M	Australia	Oceania
+Grube	M	Russia	Europe
+Gruia	F	Romania	Europe
+Guadanucci	M	Brazil	S America
+Guadanucci & Indicatti	M	Brazil	S America
+Guadanucci & Silva	M	Brazil	S America
+Guadanucci & Weinmann	M	Brazil	S America
+Guadanucci, Perafán & Valencia-Cuéllar	M	Brazil	S America
+Gücel, Fuller, Göçmen & Kunt	M	Cyprus	Europe
+Guérin	M	France	Europe
+Guerrero-Fuentes & Francke	F	Mexico	N America
+Günther	M	United Kindgom	Europe
 Guo, Zhang & Zhu	M	China	Asia
+Guseinov, Marusik & Koponen	M	Azerbaijan	Asia
+Guy	M	France	Europe
+Guy & Carricaburu	M	France	Europe
+Hackman	M	Finland	Europe
+Haddad	M	South Africa	Africa
+Haddad & Lyle	M	South Africa	Africa
+Haddad & Mbo	M	South Africa	Africa
+Haddad & Wesołowska	M	South Africa	Africa
+Haddad, Lyle, Bosselaers & Ramírez	M	South Africa	Africa
+Hadjissarantos	M	Greece	Europe
+Hahn	M	Germany	Europe
+Hamilton	M	United States of America	N America
+Hamilton, Hendrixson & Bond	M	United States of America	N America
 Han & Zhu	M	China	Asia
+Harington	M	South Africa	Africa
+Harmer & Framenau	M	Germany	Europe
+Harms & Framenau	M	Germany	Europe
+Harms & Harvey	M	Germany	Europe
+Harrison, Rix, Harvey & Austin	F	Australia	Oceania
+Harvey	M	Australia	Oceania
+Harvey & Baehr	M	Australia	Oceania
+Harvey & Waldock	M	Australia	Oceania
+Harvey, Framenau, Wojcieszek, Rix & Harvey	M	Australia	Oceania
+Hasselt	M	The Netherlands	Europe
+Haupt	M	Germany	Europe
+Hayashi	F	Japan	Asia
+Hazzi & Silva-Dávila	M	Colombia	S America
+Hazzi, Polotow, Brescovit, González-Obando & Simó	M	Colombia	S America
 He, Liu, Xu, Yin & Peng	F	China	Asia
+Hęciak & Prószyński	F	Poland	Europe
+Hedin & Carlson	M	United States of America	N America
+Hedin & Dellinger	M	United States of America	N America
+Heimer	M	Germany	Europe
+Heiss & Draney	M	United States of America	N America
+Hendrixson & Bond	M	United States of America	N America
+Henrard & Jocqué	M	Belgium	Europe
+Henriques, Miñano & Pérez-Zarcos	M	United Kingdom	Europe
+Hentz	M	United States of America	N America
+Hepner & Paulus	M	Austria	Europe
+Herman	M	Hungary	Europe
+Hervé	M	France	Europe
+Hervé, Roberts & Murphy	M	France	Europe
+Hewitt	M	South Africa	Africa
+Hickman	M	Australia	Oceania
+Hirst	M	Australia	Oceania
+Höfer & Brescovit	M	Germany	Europe
+Hoffman	M	United States of America	N America
+Hogg	M	United Kingdom	Europe
+Holm	M	Sweden	Europe
+Holmberg	M	Argentina	S America
+Hormiga	M	United States of America	N America
+Hormiga & Scharff	M	United States of America	N America
 Hu	M	China	Asia
 Hu & Li	M	China	Asia
 Huang & Zhang	M	China	Asia
 Huang, Wang & Peng	F	China	Asia
+Huber	M	Austria	Europe
+Huber & Brescovit	M	Austria	Europe
+Huber & Carvalho	M	Austria	Europe
+Huber & Dimitrov	M	Austria	Europe
+Huber & Fischer	M	Austria	Europe
+Huber & Pérez	M	Austria	Europe
+Huber & Warui	M	Austria	Europe
+Huber, Pérez & Baptista	M	Austria	Europe
+Hubert	M	France	Europe
+Huey, Rix, Wilson, Hillyer & Harvey	M	Australia	Oceania
+Humphrey	F	Australia	Oceania
+Hüsser	M	Switzerland	Europe
+Hyatt	M	United Kindgom	Europe
+Ibarra & Jiménez	M	Mexico	N America
+Ibarra-Núñez	M	Mexico	N America
+Ihara	?	Japan	Asia
+Ikeda	M	Japan	Asia
+Ileperuma Arachchi & Benjamin	F	Sri Lanka	Asia
+Indicatti, Chavari, Zucatelli-Júnior, Lucas & Brescovit	M	Brazil	S America
+Indicatti, Lucas & Brescovit	M	Brazil	S America
+Indicatti, Lucas, Guadanucci & Yamamoto	M	Brazil	S America
+Indicatti, Lucas, Ott & Brescovit	M	Brazil	S America
+Irie	M	Japan	Asia
+Irie & Ono	M	Japan	Asia
+Isaia	M	Italy	Europe
+Isaia & Mammola	M	Italy	Europe
+Isaia & Pantini	M	Italy	Europe
+Ivie	M	United States of America	N America
+Ivie & Barrows	M	United States of America	N America
+Izmailova	F	Russia	Europe
+Izquierdo	M	Argentina	S America
+Izquierdo & Grismado	M	Argentina	S America
+Izquierdo & Ramírez	M	Argentina	S America
+Jackson	M	United Kingdom	Europe
+Jäger	M	Germany	Europe
+Jäger & Dankittipakul	M	Germany	Europe
+Jäger & Krehenwinkel	M	Germany	Europe
+Jäger & Kunz	M	Germany	Europe
+Jäger & Ono	M	Germany	Europe
+Jäger & Praxaysombath	M	Germany	Europe
+Jäger & Vedel	M	Germany	Europe
+Jäger & Wunderlich	M	Germany	Europe
+Jäger, Rheims & Labarque	M	Germany	Europe
+Järvi	M	Finland	Europe
+Jendrzejewska	F	Poland	Europe
+Jézéquel	M	France	Europe
+Jiménez	F	Mexico	N America
+Jiménez & Dondale	F	Mexico	N America
+Jiménez & Llinas	F	Mexico	N America
+Jiménez & Palacios-Cardiel	F	Mexico	N America
+Jiménez-Valverde, Barriga & Moreno	M	Spain	Europe
 Jin & Zhang	M	China	Asia
+Jocqué	M	Belgium	Europe
+Jocqué & Baehr	M	Belgium	Europe
+Jocqué & Baert	M	Belgium	Europe
+Jocqué & Bosmans	M	Belgium	Europe
+Jocqué & Bosselaers	M	Belgium	Europe
+Jocqué & Henrard	M	Belgium	Europe
+Jocqué & Scharff	M	Belgium	Europe
+Jocqué & van Harten	M	Belgium	Europe
+Jones	F	United States of America	N America
+Joseph & Framenau	M	Australia	Oceania
+Kaderka	M	Czech Republic	Europe
+Kallal & Hormiga	M	United States of America	N America
+Kamura	M	Japan	Asia
+Kanesharatnam & Benjamin	F	Sri Lanka	Asia
+Karakaş Kiliç & Özkütük	F	Turkey	Asia
+Kariko	F	United States of America	N America
+Karol	F	Turkey	Asia
+Karsch	M	Germany	Europe
+Kaston	M	United States of America	N America
+Kauri	M	Finland	Europe
+Kaya, Kunt, Marusik & Uğurtaş	F	Turkey	Asia
+Keswani	F	India	Asia
+Keyserling	M	Germany	Europe
+Khoza & Lyle	F	South Africa	Africa
+Kim	M	Korea 	Asia
+Kim & Park	M	Korea 	Asia
+Kim & Seong	M	Korea 	Asia
+Kim, Jung, Kim & Lee	M	Korea 	Asia
+Kim, Lee, Lee & Hong	M	Korea 	Asia
+Kim, Yoo & Lee	M	Korea 	Asia
+Kirk	M	United Kingdom	Europe
+Kishida	M	Japan	Asia
+Knoflach	F	Austria	Europe
+Knoflach & van Harten	F	Austria	Europe
+Kolosváry	M	Hungary	Europe
+Komatsu	M	Japan	Asia
+Komnenov	M	N Macedonia	Europe
+Komnenov & Chatzaki	M	N Macedonia	Europe
+Kononenko	?	Tajikistan	Asia
+Kovács, Prazsák, Eichardt, Vári & Gyurkovics	M	Hungary	Europe
+Kovblyuk	M	Ukraine	Europe
+Kovblyuk & Kastrygina	M	Ukraine	Europe
+Kovblyuk & Nadolny	M	Ukraine	Europe
+Kovblyuk & Ponomarev	M	Ukraine	Europe
+Kovblyuk & Seyyar	M	Ukraine	Europe
+Kovblyuk, Kastrygina & Marusik	M	Ukraine	Europe
+Kovblyuk, Kastrygina & Omelko	M	Ukraine	Europe
+Kovblyuk, Kastrygina, Marusik & Ponomarev	M	Ukraine	Europe
+Kovblyuk, Marusik & Omelko	M	Ukraine	Europe
+Kranz-Baltensperger	F	Switzerland	Europe
+Kratochvíl	M	Czech Republic	Europe
+Kratochvíl & Miller	M	Czech Republic	Europe
+Kraus	M	Germany	Europe
+Kritscher	M	Germany	Europe
+Kroneberg	M	Russia	Europe
+Kronestedt	M	Sweden	Europe
+Kronestedt & Marusik	M	Sweden	Europe
+Kronestedt, Marusik & Omelko	M	Sweden	Europe
+Kropf	M	Austria	Europe
+Kubcová	F	Czech Republic	Europe
+Kulczyński	M	Poland	Europe
+Kumari & Mittal	F	India	Asia
+Kunt & Marusik	M	Turkey	Asia
+Kunt & Yağmur	M	Turkey	Asia
+Kunt, Elverici, Özkütük & Yağmur	M	Turkey	Asia
+Kunt, Özkütük & Elverici	M	Turkey	Asia
+Kuntner	M	Slovenia	Europe
+Kuntner & Agnarsson	M	Slovenia	Europe
+Kuntner & Coddington	M	Slovenia	Europe
+Kuntner & Hormiga	M	Slovenia	Europe
+Kurata	M	Canada	N America
+L. Koch	M	Germany	Europe
+Labarque, Pérez-González & Griswold	M	Argentina	S America
+Laborda, Ramírez & Pizarro-Araya	M	Uruguay	S America
+Lamoral	M	South Africa	Africa
+Langlands & Framenau	M	Australia	Oceania
+Latreille	M	France	Europe
+Laurent	M	Belgium	Europe
+Lawrence	M	South Africa	Africa
+Lazarov	M	Bulgaria	Europe
+Lazarov & Dimitrov	M	Bulgaria	Europe
+Lazarov & Naumova	M	Bulgaria	Europe
+Leardi	M	Italy	Europe
+Lecigne	M	France	Europe
+Lecigne, Cornic, Oger & Van Keer	M	France	Europe
+Ledford	M	United States of America	N America
+Ledford & Griswold	M	United States of America	N America
+Ledford, Paquin, Cokendolpher, Campbell & Griswold	M	United States of America	N America
+Ledoux	M	France	Europe
+Leech	M	Canada	N America
+Legendre	M	France	Europe
+Lehtinen	M	Finland	Europe
+Lehtinen & Saaristo	M	Finland	Europe
 Lei & Peng	M	China	Asia
+Leister & Miller	M	United States of America	N America
+Lemos & Brescovit	M	Brazil	S America
+Lendl	M	Hungary	Europe
+Lenz	M	South Africa	Africa
+LeQuier & Agnarsson	F	United States of America	N America
+Lessert	M	United States of America	N America
+Levi	M	Israel	Asia
+Levy	M	Israel	Asia
+Lewis & Dippenaar-Schoeman	?	South Africa	Africa
 Li	M	China	Asia
 Li & Blick	M	China	Asia
 Li & Chang	M	China	Asia
@@ -453,6 +754,10 @@ Lin, Ballarin & Li	M	China	Asia
 Lin, Chang & Li	M	China	Asia
 Lin, Li & Chen	M	China	Asia
 Lin, Tao & Li	M	China	Asia
+Lise & Silva	M	Brazil	S America
+Lise, Kesster & Silva	M	Brazil	S America
+Lise, Ott & Rodrigues	M	Brazil	S America
+Lissner	M	Denmark	Europe
 Liu	M	China	Asia
 Liu & Li	M	China	Asia
 Liu & Xu	M	China	Asia
@@ -462,7 +767,253 @@ Liu, Li & Pham	M	China	Asia
 Liu, Peng & Yan	F	China	Asia
 Liu, Xu & Henrard	M	China	Asia
 Liu, Xu, Xiao, Yin & Peng	M	China	Asia
+Lobanova	F	Russia	Europe
+Locht & Medina	M	Mexico	N America
+Locht, Medina, Rojo & Vázquez	M	Mexico	N America
+Locket	M	United Kingdom	Europe
+Locket & Russell-Smith	M	United Kingdom	Europe
+Logunov	M	Russia	Europe
+Logunov & Azarkina	M	Russia	Europe
+Logunov & Cutler	M	Russia	Europe
+Logunov & Hereward	M	Russia	Europe
+Logunov & Huseynov	M	Russia	Europe
+Logunov & Jäger	M	Russia	Europe
+Logunov & Kronestedt	M	Russia	Europe
+Logunov & Marusik	M	Russia	Europe
+Logunov & Obenauer	M	Russia	Europe
+Logunov & Rakov	M	Russia	Europe
+Logunov & Schäfer	M	Russia	Europe
+Logunov & Wesołowska	M	Russia	Europe
+Logunov, Cutler & Marusik	M	Russia	Europe
+Logunov, Ikeda & Ono	M	Russia	Europe
+Logunov, Marusik & Mozaffarian	M	Russia	Europe
+Logunov, Marusik & Rakov	M	Russia	Europe
+Logunov, Marusik & Trilikauskas	M	Russia	Europe
+Lohmander	M	Sweden	Europe
+Loksa	M	Hungary	Europe
+Lopardo	F	Argentina	S America
+Lopardo & Michalik	F	Argentina	S America
+Lopez	M	France	Europe
+Lopez & Emerit	M	France	Europe
+López Carrión & Grismado	M	Argentina	S America
+Lotz	M	South Africa	Africa
+Lowrie & Gertsch	M	United States of America	N America
+Lucas	M	Brazil	S America
+Lucas & Indicatti	F	Brazil	S America
+Lucas, Indicatti, Brescovit & Francisco	F	Brazil	S America
+Lugetti & Tongiorgi	M	Italy	Europe
+Lyle	F	South Africa	Africa
+Lyle & Haddad	F	South Africa	Africa
+Machado	M	Brazil	S America
+Machado & Brescovit	M	Brazil	S America
+Machado & Ribera	M	Brazil	S America
+Machado, Brescovit & Francisco	M	Brazil	S America
+MacLeay	M	United Kingdom	Europe
+Maddison	M	Canada	N America
+Maddison & Szűts	M	Canada	N America
+Magalhaes	M	Brazil	S America
+Magalhaes & Grismado	M	Brazil	S America
+Magalhaes & Ramírez	M	Brazil	S America
+Magalhaes, Brescovit & Santos	M	Brazil	S America
+Magalhaes, Fernandes, Ramírez & Bonaldo	M	Brazil	S America
+Main	F	Australia	Oceania
+Main & Framenau	F	Australia	Oceania
+Main & Mascord	F	Australia	Oceania
+Majumder	M	India	Asia
+Majumder & Tikader	M	India	Asia
+Makhan	M	The Netherlands	Europe
+Makhan & Ezzatpanah	M	The Netherlands	Europe
+Malamel, Nafin, Sankaran & Sebastian	M	India	Asia
+Malamel, Prajapati, Sudhikumar & Sebastian	M	India	Asia
+Maréchal	M	France	Europe
+Maréchal & Marty	M	France	Europe
+Marinaro	M	France	Europe
+Marples	M	New Zealand	Oceania
+Martin	M	Germany	Europe
+Martinez & Galvis	M	Colombia 	S America
+Martinez-G & Villarreal	M	Colombia	S America
+Martínez, Brescovit & Martinez	M	Colombia 	S America
+Martins & Bertani	F	Brazil	S America
+Martins, Knysak & Bertani	F	Brazil	S America
+Marusik	M	Russia	Europe
+Marusik & Ballarin	M	Russia	Europe
+Marusik & Esyunin	M	Russia	Europe
+Marusik & Fet	M	Russia	Europe
+Marusik & Fomichev	M	Russia	Europe
+Marusik & Fritzén	M	Russia	Europe
+Marusik & Gnelitsa	M	Russia	Europe
+Marusik & Guseinov	M	Russia	Europe
+Marusik & Koponen	M	Russia	Europe
+Marusik & Kovblyuk	M	Russia	Europe
+Marusik & Larsen	M	Russia	Europe
+Marusik & Leech	M	Russia	Europe
+Marusik & Logunov	M	Russia	Europe
+Marusik & Omelko	M	Russia	Europe
+Marusik & Tanasevitch	M	Russia	Europe
+Marusik & Tsellarius	M	Russia	Europe
+Marusik & Zamani	M	Russia	Europe
+Marusik & Zonstein	M	Russia	Europe
+Marusik, Azarkina & Koponen	M	Russia	Europe
+Marusik, Fomichev & Omelko	M	Russia	Europe
+Marusik, Fomichev & Vahtera	M	Russia	Europe
+Marusik, Gnelitsa & Koponen	M	Russia	Europe
+Marusik, Gnelitsa & Kovblyuk	M	Russia	Europe
+Marusik, Hippa & Koponen	M	Russia	Europe
+Marusik, Koponen & Danilov	M	Russia	Europe
+Marusik, Nadolny & Omelko	M	Russia	Europe
+Marusik, Omelko & Koponen	M	Russia	Europe
+Marusik, Omelko & Ponomarev	M	Russia	Europe
+Marusik, Zamani & Mirshamsi	M	Russia	Europe
+Marusik, Zhang & Omelko	M	Russia	Europe
+Marx	M	United States of America	N America
+Mascord	M	Australia	Oceania
+Matsuda & Ono	F	Japan	Asia
+Maurer	M	Switzerland	Europe
+Maya-Morales & Jiménez	F	Mexico	N America
+Mazzoleni & Pantini (/!\ Pantini is 1st of the two in all I've found)	F	Italy	Europe
+Mbo & Haddad	M	South Africa	Africa
+McCook	M	United States of America	N America
+Mcheidze	F	USSR (Georgia)	Asia
+McKay	M	Australia	Oceania
+Meise	M	Germany	Europe
+Melic	M	Spain	Europe
+Melic, Silva & Barrientos	M	Spain	Europe
+Mello-Leitão	M	Brazil	S America
+Mendoza	M	Mexico	N America
+Mendoza & Francke	M	Mexico	N America
+Merrett	M	United Kingdom	Europe
+Merrett & Russell-Smith	M	United Kingdom	Europe
+Metzner	M	Germany	Europe
 Mi & Peng	M	China	Asia
+Michalik & Wunderlich	M	Germany	Europe
+Miglio & Bonaldo	F	Brazil	S America
+Miglio, Harms, Framenau & Harvey	F	Brazil	S America
+Mikhailov	M	Russia	Europe
+Mikhailov & Ponomarev	M	Russia	Europe
+Milasowszky, Bauder & Hepner	M	Austria	Europe
+Milledge	M	Australia	Oceania
+Miller	M	Several, Czech, and Netherland	Europe
+Miller & Buchar	M	Czech Republic	Europe
+Miller & Kratochvíl	M	Czech Republic	Europe
+Miller & Polenec	M	Czech Republic	Europe
+Miller & Weiss	M	Czech Republic	Europe
+Miller, Griswold & Haddad	M	The Netherlands	Europe
+Miller, Griswold & Yin	M	The Netherlands	Europe
+Miller, Griswold, Scharff, Řezáč, Szűts & Marhabaie	M	The Netherlands	Europe
+Millidge	M	United Kingdom	Europe
+Millidge & Russell-Smith	M	United Kingdom	Europe
+Millot	M	France	Europe
+Milne & Wells	M	United States of America	N America
+Miranda & Bermúdez	M	Panama	Asia
+Mirshamsi	M	Iran	Asia
+Mirshamsi & Marusik	M	Iran	Asia
+Mirshamsi, Zamani & Marusik	M	Iran	Asia
+Mirza & Sanap	M	India	Asia
+Mirza, Bhosale & Sanap	M	India	Asia
+Moenkhaus	M	Brazil	S America
+Monga & Singh	F	India	Asia
+Monga, Singh & Sadana	F	India	Asia
+Montenegro (Vargas) & Aguilera	M	Chile	S America
+Montes de Oca & Pérez-Miles	F	Uruguay	S America
+Montes de Oca, D'Elía & Pérez-Miles	F	Uruguay	S America
+Montgomery	M	United States of America	N America
+Moradmand	M	Iran	Asia
+Moradmand, Zamani & Jäger	M	Iran	Asia
+Moran	M	Australia	Oceania
+Morano	M	Spain	Europe
+Moss & Bonaldo	F	Brazil	S America
+Motta & Levi	M	Brazil	S America
+Mukhtar	M	Pakistan	Asia
+Müller	M	Germany	Europe
+Müller & Heimer	M	Germany	Europe
+Muma	M	United States of America	N America
+Murugesan, Mathew, Sudhikumar, Sunish, Biju & Sebastian	M	India	Asia
+Muster	M	Germany	Europe
+Muster & Thaler	M	Germany	Europe
+Muster & Van Keer	M	Germany	Europe
+Nadal & Rubio	F	Argentina	S America
+Nadolny & Ponomarev	M	Ukraine	Europe
+Nadolny, Omelko, Marusik & Blagoev	M	Ukraine	Europe
+Nae	M	Romania	Europe
+Nae, Sarbu & Weiss	M	Romania	Europe
+Nakatsudi	M	Japan	Asia
+Nanayakkara, Kirk, Dayananda, Ganehiarachchi, Vishvanath & Kusuminda	M	Sri Lanka	Asia
+Nanayakkara, Sumanapala & Kirk	M	Sri Lanka	Asia
+Narayan	M	India	Asia
+Naumova	F	Bulgaria	Europe
+Nekhaeva, Marusik & Buckle	F	Russia	Europe
+Nenilin	M	Uzbekistan	Asia
+Nenilin & Fet	M	Uzbekistan	Asia
+Newlands	M	South Africa	Africa
+Nicolet	M	Switzerland	Europe
+Nicoletta, Chaparro, Mamani, Ochoa, West & Ferretti	F	Argentina	S America
+Ninni	M	Italy	Europe
+Nishikawa	M	Japan	Asia
+Nogueira & Dias	M	Brazil	S America
+Nogueira, Pena-Barbosa, Venticinque & Brescovit	M	Brazil	S America
+Nosek	M	Czech Republic	Europe
+Nunn & West	M	Australia	Oceania
+Nunn, West & von Wirth	M	Australia	Oceania
+Nzigidahera & Jocqué	M	Burundi	Africa
+Nzigidahera, Desnyder & Jocqué	M	Burundi	Africa
+O. Pickard-Cambridge	M	United Kingdom	Europe
+Oi	M	Japan	Asia
+Okuma	F	Japan	Asia
+Okumura	M	Japan	Asia
+Okumura, Ono & Nishikawa	M	Japan	Asia
+Oliger	F	Russia	Europe
+Oliveira & Brescovit	M	Brazil	S America
+Omelko & Marusik	M	Russia	Europe
+Omelko, Komisarenko & Marusik	M	Russia	Europe
+Omelko, Marusik & Koponen	M	Russia	Europe
+Ono	M	Japan	Asia
+Ono & Hashim	M	Japan	Asia
+Ono & Jocqué	M	Japan	Asia
+Ono & Martens	M	Japan	Asia
+Ono & Ogata	M	Japan	Asia
+Ono & Saito	M	Japan	Asia
+Ono & Schwendinger	M	Japan	Asia
+Ono & Tanikawa	M	Japan	Asia
+Opatova & Arnedo	F	Czech Republic	Europe
+Opell	M	United States of America	N America
+Ortiz	M	Cuba	N America
+Ortiz & Francke	M	Mexico	N America
+Ott	M	Brazil	S America
+Ott & Harvey	M	Brazil	S America
+Ott & Höfer	M	Brazil	S America
+Ott & Lise	M	Brazil	S America
+Otto & Hill	M	Germany	Europe
+Otto & Tanasevitch	M	Germany	Europe
+Ovtchinnikov	M	Kyrgystan	Asia
+Ovtsharenko	M	United States of America	N America
+Ovtsharenko & Marusik	M	United States of America	N America
+Ovtsharenko & Platnick	M	United States of America	N America
+Ovtsharenko, Levy & Platnick	M	United States of America	N America
+Ovtsharenko, Platnick & Marusik	M	United States of America	N America
+Ovtsharenko, Platnick & Song	M	United States of America	N America
+Özdikmen & Demir	M	Turkey	Asia
+Özkütük, Elverici, Yağmur & Kunt	M	Turkey	Asia
+Paik	?	Korea	Asia
+Paik & Yaginuma	?	Korea	Asia
+Panzera, Perdomo & Pérez-Miles	F	Uruguay	S America
+Paquin & Dupérré	M	Canada	N America
+Paquin, Dupérré, Buckle & Crawford	M	Canada	N America
+Paquin, Dupérré, Buckle & Lewis	M	Canada	N America
+Parveen, Khan, Mushtaq, Ahmad & Rana	F	Pakistan	Asia
+Passanha & Brescovit	M	Brazil	S America
+Patel	?	India	Asia
+Patel & Patel	M	India	Asia
+Patel & Reddy	M	India	Asia
+Patoleta	F	Poland	Europe
+Patoleta & Żabka	F	Poland	Europe
+Patoleta, Gardzińska & Żabka	F	Poland	Europe
+Pavesi	M	Italy	Europe
+Pavlek & Ribera	F	Croatia	Europe
+Peck	M	United States of America	N America
+Peckham & Peckham	M	United States of America	N America
+Pedroso, Giupponi & Baptista	M	Portugal	Europe
+Pekár	M	Czech Republic	Europe
+Pekár & Cardoso	M	Czech Republic	Europe
 Peng & Li	M	China	Asia
 Peng & Yin	M	China	Asia
 Peng, Gong & Kim	M	China	Asia
@@ -471,7 +1022,256 @@ Peng, Tso & Li	M	China	Asia
 Peng, Yin & Kim	M	China	Asia
 Peng, Yin, Yan & Kim	M	China	Asia
 Peng, Yin, Zhang & Kim	M	China	Asia
+Perafán & Pérez-Miles	M	Uruguay	S America
+Perafán, Galvis & Gutiérrez	M	Uruguay	S America
+Perafán, Galvis & Pérez-Miles	M	Uruguay	S America
+Pereira-Filho, Saturnino & Bonaldo	M	Brazil	S America
+Pérez & Huber	M	Cuba	N America
+Pérez-Miles	M	Uruguay	S America
+Pérez-Miles & Locht	M	Uruguay	S America
+Pérez-Miles & Weinmann	M	Uruguay	S America
+Pérez-Miles, Bonaldo & Miglio	M	Uruguay	S America
+Pérez-Miles, Costa & Montes de Oca	M	Uruguay	S America
+Pérez-Miles, Gabriel & Gallon	M	Uruguay	S America
+Pérez-Miles, Miglio & Bonaldo	M	Uruguay	S America
+Perty	M	Switzerland	Europe
+Pesarini	M	Italy	Europe
+Petrunkevitch	M	United States of America	N America
+Pett & Jocqué	M	Belgium	Europe
+Piacentini	M	Argentina	S America
+Piacentini & Grismado	M	Argentina	S America
+Piacentini, Ávila, Pérez & Grismado	M	Argentina	S America
+Piacentini, Grismado & Ramírez	M	Argentina	S America
+Piacentini, Scioscia, Carbajal, Ott, Brescovit & Ramírez	M	Argentina	S America
+Pichka	F	Ukaine	Europe
+Piel	M	United States of America	N America
+Pillai	M	India	Asia
+Piza	M	Brazil	S America
+Planas & Ribera	M	Spain	Europe
+Platnick	M	United States of America	N America
+Platnick & Baehr	M	United States of America	N America
+Platnick & Berniker	M	United States of America	N America
+Platnick & Bird	M	United States of America	N America
+Platnick & Di Franco	M	United States of America	N America
+Platnick & Dupérré	M	United States of America	N America
+Platnick & Ewing	M	United States of America	N America
+Platnick & Forster	M	United States of America	N America
+Platnick & Griffin	M	United States of America	N America
+Platnick & Horner	M	United States of America	N America
+Platnick & Jäger	M	United States of America	N America
+Platnick & Jocqué	M	United States of America	N America
+Platnick & Lau	M	United States of America	N America
+Platnick & Murphy	M	United States of America	N America
+Platnick & Ovtsharenko	M	United States of America	N America
+Platnick & Sedgwick	M	United States of America	N America
+Platnick & Shadab	M	United States of America	N America
+Platnick & Song	M	United States of America	N America
+Platnick & Ubick	M	United States of America	N America
+Platnick & Ubick	M	United States of America	N America
+Platnick, Berniker & Bonaldo	M	United States of America	N America
+Platnick, Dupérré & Berniker	M	United States of America	N America
+Platnick, Dupérré, Berniker & Bonaldo	M	United States of America	N America
+Platnick, Dupérré, Ott & Kranz-Baltensperger	M	United States of America	N America
+Platnick, Dupérré, Ott, Baehr & Kranz-Baltensperger	M	United States of America	N America
+Platnick, Grismado & Ramírez	M	United States of America	N America
+Platnick, Ovtsharenko & Murphy	M	United States of America	N America
+Platnick, Shadab & Sorkin	M	United States of America	N America
+Pocock	M	United Kingdom	Europe
+Pocock & Rothschild	M	United Kingdom	Europe
+Poeta	F	Brazil	S America
+Poeta, Marques & Buckup	F	Brazil	S America
+Polenec & Thaler	M	Slovenia	Europe
+Polotow & Brescovit	F	Brazil	S America
+Polotow & Griswold	F	Brazil	S America
+Pompozzi	M	Argentina	S America
+Ponksee & Tanikawa	?	Thailand	Asia
+Ponomarev	M	Russia	Europe
+Ponomarev & Shmatko	M	Russia	Europe
+Ponomarev & Tsvetkov	M	Russia	Europe
+Prajapati	M	India	Asia
+Prajapati, Malamel, Sudhikumar & Sebastian	M	India	Asia
+Prajapati, Murthappa, Sankaran & Sebastian	M	India	Asia
+Prentice & Redak	M	United States of America	N America
+Próchniewicz	M	Poland	Europe
+Próchniewicz & Heçiak	M	Poland	Europe
+Prosen	M	Argentina	S America
+Prószyński	M	Poland	Europe
+Prószyński & Deeleman-Reinhold	M	Poland	Europe
+Prószyński & Wesołowska	M	Poland	Europe
+Prószyński & Zabka	M	Poland	Europe
+Prószyński & Zochowska	M	Poland	Europe
+Pulleine	M	Australia	Oceania
+Punda	F	Poland	Europe
+Purcell	M	South Africa	Africa
 Quan & Liu	?	China	Asia
+Quijano-Cuervo & Galvis	M	Mexico	N America
+Rainbow	M	Australia	Oceania
+Rainbow & Pulleine	M	Australia	Oceania
+Rakov	M	Russia	Europe
+Rakov & Logunov	M	Russia	Europe
+Ramírez	M	Argentina	S America
+Ramírez & González	M	Argentina	S America
+Ramírez & Grismado	M	Argentina	S America
+Ramírez, Lopardo & Bonaldo	M	Argentina	S America
+Ranasinghe & Benjamin	F	Sri Lanka	Asia
+Raven	M	Australia	Oceania
+Raven & Baehr	M	Australia	Oceania
+Raven & Churchill	M	Australia	Oceania
+Raven & Gray	M	Australia	Oceania
+Raven & Hebron	M	Australia	Oceania
+Raven & Platnick	M	Australia	Oceania
+Raven & Stumkat	M	Australia	Oceania
+Raven & Wishart	M	Australia	Oceania
+Reddy & Patel	M	India	Asia
+Reichling	M	United States of America	N America
+Reichling & West	M	United States of America	N America
+Reimoser	M	Austria	Europe
+Reiskind	M	United States of America	N America
+Revollo, da Silva & Bertani	F	Brazil	S America
+Řezáč	M	Czech Republic	Europe
+Řezáč, Růžička, Oger & Řezáčová	M	Czech Republic	Europe
+Rheims	F	Brazil	S America
+Rheims & Alayón	F	Brazil	S America
+Rheims & Brescovit	F	Brazil	S America
+Rheims, Brescovit & van Harten	F	Brazil	S America
+Rheims, Santos & van Harten	F	Brazil	S America
+Ribera	M	Spain	Europe
+Ribera & Blasco	M	Spain	Europe
+Ribera & De Mas	M	Spain	Europe
+Ribera & Ferrández	M	Spain	Europe
+Ribera & Guerao	M	Spain	Europe
+Ribera & Lopez	M	Spain	Europe
+Ribera & Planas	M	Spain	Europe
+Ribera, Elverici, Kunt & Özkütük	M	Spain	Europe
+Richard	M	Switzerland	Europe
+Richardson	M	Australia	Oceania
+Richardson & Gunter	M	Australia	Oceania
+Richman	M	United States of America	N America
+Ríos-Tamayo	M	Argentina	S America
+Ríos-Tamayo & Goloboff	M	Argentina	S America
+Ríos-Tamayo & Lyle	M	Argentina	S America
+Rivera-Quiroz & Álvarez-Padilla	M	Mexico	N America
+Rix	M	Australia	Oceania
+Rix & Harvey	M	Australia	Oceania
+Rix, Bain, Main & Harvey	M	Australia	Oceania
+Rix, Main, Raven & Harvey	M	Australia	Oceania
+Rix, Raven & Harvey	M	Australia	Oceania
+Rix, Roberts & Harvey	M	Australia	Oceania
+Rix, Wilson & Harvey	M	Australia	Oceania
+Roberts	M	United Kingdom	Europe
+Rodrigues	M	Brazil	S America
+Rodrigues & Bonaldo	M	Brazil	S America
+Rodrigues & Brescovit	M	Brazil	S America
+Rodrigues & Ott	M	Brazil	S America
+Rodrigues & Poeta	M	Brazil	S America
+Rodrigues, Lemos & Brescovit	M	Brazil	S America
+Roewer	M	Germany	Europe
+Roff & Dippenaar-Schoeman	M	South Africa	Africa
+Roff & Haddad	M	South Africa	Africa
+Rollard & Wesołowska	F	France	Europe
+Roșca	M	Romania	Europe
+Rossi	M	Austria	Europe
+Roth	M	United States of America	N America
+Roth & Brown	M	United States of America	N America
+Rubio & Baigorria	M	Argentina	S America
+Rubio & Danişman	M	Argentina	S America
+Rubio & Ramírez	M	Argentina	S America
+Rubio, Argañaraz & Gleiser	M	Argentina	S America
+Rubio, Izquierdo & Piacentini	M	Argentina	S America
+Rudloff	M	Germany	Europe
+Rudloff & Weinmann	M	Germany	Europe
+Ruiz	M	Brazil	S America
+Ruiz & Brescovit	M	Brazil	S America
+Ruiz & Maddison	M	Brazil	S America
+Russell-Smith	M	United Kingdom	Europe
+Russell-Smith & Jocqué	M	United Kingdom	Europe
+Růžička	F	Czech Republic	Europe
+Saager	M	Germany	Europe
+Saaristo	M	Finland	Europe
+Saaristo & Marusik	M	Finland	Europe
+Saaristo & Tanasevitch	M	Finland	Europe
+Saaristo & van Harten	M	Finland	Europe
+Sadana	M	India	Asia
+Sadana & Gupta	M	India	Asia
+Saha & Raychaudhuri	F	India	Asia
+Saito	M	Japan	Asia
+Saito & Irie	M	Japan	Asia
+Saito & Ono	M	Japan	Asia
+Salgueiro-Sepúlveda & Álvarez-Padilla	M	Mexico	N America
+Sanap, Caleb & Joglekar	M	India	Asia
+Sánchez-Ruiz	M	Cuba	N America
+Sánchez-Ruiz & Brescovit	M	Cuba	N America
+Sánchez-Ruiz, Brescovit & Alayón	M	Cuba	N America
+Sánchez-Ruiz, Brescovit & Bonaldo	M	Cuba	N America
+Sánchez-Ruiz, Platnick & Dupérré	M	Cuba	N America
+Sankaran & Sebastian	M	India	Asia
+Santana & Raven	M	Australia	Oceania
+Santos	M	Brazil	S America
+Santos & Gonzaga	M	Brazil	S America
+Santos & Rheims	M	Brazil	S America
+Santos & Santos	F	Brazil	S America
+Sargeant & Agnarsson	F	United States of America	N America
+Sarno	F	United States of America	N America
+Satler & Hedin	M	United States of America	N America
+Saturnino & Bonaldo	F	Brazil	S America
+Saturnino, Rodrigues & Bonaldo	F	Brazil	S America
+Saucedo, Ubick & Griswold	F	United States of America	N America
+Sauer	M	United States of America	N America
+Sauer & Platnick	M	United States of America	N America
+Savelyeva	F	Kazakhtsan	Asia
+Savory	M	United Kingdom	Europe
+Schäfer	M	Germany	Europe
+Scharff	M	Danmark (probably)	Europe
+Schenkel	M	Switzerland (probably)	Europe
+Schiapelli & Gerschman	F	Argentina	S America
+Schick	M	United States of America	N America
+Schikora	M	Germany	Europe
+Schmidt	M	Germany	Europe
+Schmidt & Barensteiner	M	Germany	Europe
+Schmidt & Klaas	M	Germany	Europe
+Schmidt & Krause	M	Germany	Europe
+Schmidt & von Wirth	M	Germany	Europe
+Schmidt, Bullmer & Thierer-Lutz	M	Germany	Europe
+Schmidt, Hettegger & Matthes	M	Germany	Europe
+Schubert	M	Australia	Oceania
+Schwendinger	M	Switzerland	Europe
+Schwendinger & Hongpadharakiree	M	Switzerland	Europe
+Schwendinger & Zonstein	M	Switzerland	Europe
+Scioscia	F	Argentina	S America
+Scopoli	M	Italy	Europe
+Sedgwick	M	United States of America	N America
+Seiter & Wesołowska	M	Austria	Europe
+Sen	?	India	Asia
+Sen & Basu	?	India	Asia
+Sen, Dhali, Saha & Raychaudhuri	M	India	Asia
+Senglet	M	Switzerland	Europe
+Seo & Sohn	M	Korea	Asia
+Sethi & Tikader	F	India	Asia
+Seyfulina & Mikhailov	F	Russia	Europe
+Seyyar, Demir & Türkes	M	Turkey	Asia
+Shafaie, Mirshamsi, Aliabadian, Moradmand & Marusik	F	Iran	Asia
+Shear	M	United States of America	N America
+Shimojana & Haupt	M	Germany (probably)	Europe
+Shinkai	M	Japan	Asia
+Sierwald	F	United States of America	N America
+Šilhavý	M	Czech Republic	Europe
+Siliwal, Molur & Raven	F	India	Asia
+Silva	M	Brazil	S America
+Silva & Carico	M	Brazil	S America
+Silva & Griswold	M	Brazil	S America
+Silva & Lise	M	Brazil	S America
+Silva-Junior & Bonaldo	M	Brazil	S America
+Silva-Moreira	M	Brazil	S America
+Silva, Lise & Carico	M	Brazil	S America
+Simon	M	France	Europe
+Simon & Fage	M	France	Europe
+Slowik	M	United States of America	N America
+Smith	M	United States of America	Asia
+Smith & Jacobi	M	United Kingdom	Europe
+Smith & Levi	F	Australia	Oceania
+Smith, Agnarsson & Grinsted	F	United States of America	N America
+Soares	M	Brazil	S America
+Soares & Camargo	M	Brazil	S America
 Song	M	China	Asia
 Song & Haupt	M	China	Asia
 Song & Kim	M	China	Asia
@@ -485,6 +1285,36 @@ Song, Chen & Gong	M	China	Asia
 Song, Gu & Chen	M	China	Asia
 Song, Zhang & Zhu	M	China	Asia
 Song, Zhu & Zhang	M	China	Asia
+Sørensen	M	Denmark	Europe
+Soto & Ramírez	M	Argentina	S America
+Spassky	M	Russia	Europe
+Starega	M	Poland	Europe
+Sterghiu	F	Romania	Europe
+Sternbergs	M	Latvia	Europe
+Stocks	M	United States of America	N America
+Stolar	M	Argentina	S America
+Stoliczka	M	Austrohungarian, but served for the UK	Europe
+Stone	M	United States of America	N America
+Strand	M	Latvia, Norway	Europe
+Stratton	F	United States of America	N America
+Suguro	M	Japan	Asia
+Sundevall	M	Sweden	Europe
+Sunil Jose	M	India	Asia
+Sytshevskaja	F	Russia	Europe
+Szinetár & Samu	M	Hungary	Europe
+Szűts	M	Hungary	Europe
+Szűts & Jocqué	M	Hungary	Europe
+Szűts & Scharff	M	Hungary	Europe
+Szűts & Ubick	M	Hungary	Europe
+Szymkowiak	M	Poland	Europe
+Taczanowski	M	Poland	Europe
+Taginuma (rather Yaginuma)	M	Japan	Asia
+Talwar, Majagi, Bodkhe & Kamble	F	India	Asia
+Tan	M	Malaysia	Asia
+Tanaka	M	Japan	Asia
+Tanaka & Suwa	M	Japan	Asia
+Tanasevitch	M	Russia	Europe
+Tanasevitch & Piterkina	M	Russia	Europe
 Tang & Li	M	China	Asia
 Tang & Song	M	China	Asia
 Tang & Yang	M	China	Asia
@@ -494,9 +1324,77 @@ Tang, Song & Zhu	M	China	Asia
 Tang, Yin & Peng	M	China	Asia
 Tang, Yin, Griswold & Peng	M	China	Asia
 Tang, Yin, Peng, Ubick & Griswold	M	China	Asia
+Tanikawa	M	Japan	Asia
+Tanikawa & Ono	M	Japan	Asia
+Tazoe	F	Japan	Asia
+Teixeira & Machado	M	Brazil	S America
+Tesmoingt	M	France	Europe
+Tesmoingt, Cleton & Verdez	M	France	Europe
+Thaler	M	Austria	Europe
+Thaler & Knoflach	M	Austria	Europe
+Thaler & Steinberger	M	Austria	Europe
+Thaler, Buchar & Kůrka	M	Austria	Europe
+Thoma	M	Switzerland	Europe
+Thorell	M	Sweden	Europe
+Tikader	M	India	Asia
+Tikader & Bal	M	India	Asia
+Tikader & Gajbe	M	India	Asia
+Tikader & Malhotra	M	India	Asia
+Tio & Humphrey	M	Australia	Oceania
+Todd	F	Australia	Oceania
 Tong & Ji	M	China	Asia
 Tong & Li	M	China	Asia
 Tong, Zhang & Li	M	China	Asia
+Tongiorgi	M	Italy	Europe
+Topçu, Türkes & Seyyar	M	Turkey	Asia
+Traw	M	United States of America	N America
+Trilikauskas	M	Russia	Europe
+Trotta	M	Italy	Europe
+Tso, Haupt & Zhu	M	Taiwan	Asia
+Tucker	M	South Africa	Africa
+Tullgren	M	Sweden	Europe
+Tuneva	F	Russia	Europe
+Tuneva & Esyunin	F	Russia	Europe
+Türkeş, Karabulut, Demir & Seyyar	M	Turkey	Asia
+Ubick	M	United States of America	N America
+Ubick & Griswold	M	United States of America	N America
+Ubick & Platnick	M	United States of America	N America
+Uetz & Dondale	M	United States of America	N America
+Unzicker	M	United States of America	N America
+Urones	F	Spain	Europe
+Urquhart	M	New Zealand	Oceania
+Urtubey & Báez	M	Argentina	S America
+Usher	M	United Kingdom	Europe
+Utochkin	M	USSR	Asia
+Uyemura	M	Japan	Asia
+Valdez-Mondragón	M	Mexico	N America
+Valdez-Mondragón & Cortez-Roldán	M	Mexico	N America
+Valdez-Mondragón & Francke	M	Mexico	N America
+Valerio	M	Panamá	N America
+Van den Berg & Dippenaar-Schoeman	F	South Africa	Africa
+van Hasselt	M	The Netherlands	Europe
+van Helsdingen	M	The Netherlands	Europe
+Van Keer	M	Belgium	Europe
+Van Keer & Bosmans	M	Belgium	Europe
+van Niekerk & Dippenaar-Schoeman	M	South Africa	Africa
+Van Patten & Agnarsson	F	United States of America	N America
+Varol	M	Turkey	Asia
+Varol & Akpınar	M	Turkey	Asia
+Vedel & Jäger	M	France	Europe
+Versteirt	F	Belgium	Europe
+Versteirt, Baert & Jocqué	F	Belgium	Europe
+Vink	M	New Zealand	Oceania
+Vink & Dupérré	M	New Zealand	Oceania
+Vink, Dupérré & Malumbres-Olarte	M	New Zealand	Oceania
+Vinson	M	France	Europe
+Víquez	M	Costa Rica	N America
+Vol	M	France	Europe
+Vollmer	M	Germany or Austria	Europe
+von Wirth	M	Germany	Europe
+Walckenaer	M	France	Europe
+Waldock	M	Australia	Oceania
+Wallace	M	United States of America	N America
+Wallace & Exline	M	United States of America	N America
 Wang	M	China	Asia
 Wang & Jäger	M	China	Asia
 Wang & Li	F	China	Asia
@@ -514,8 +1412,39 @@ Wang, Zhang & Peng	M	China	Asia
 Wang, Zhang & Zhang	M	China	Asia
 Wang, Zhou & Peng	M	China	Asia
 Wang, Zhou, Irfan, Yang & Peng	M	China	Asia
+Wanless	M	United Kingdom	Europe
+Wanless & Clark	M	United Kingdom	Europe
+Warui & Jocqué	M	South Africa	Africa
+Weiss	F	Romania, Germany	Europe
+Werenkraut & Ramírez	F	Argentina	S America
+Werjbitzky	F	Russia	Europe
+Wesołowska	F	Poland	Europe
+Wesołowska & Cumming	F	Poland	Europe
+Wesołowska & Dawidowicz	F	Poland	Europe
+Wesołowska & Haddad	F	Poland	Europe
+Wesołowska & Russell-Smith	F	Poland	Europe
+Wesołowska & Szűts	F	Poland	Europe
+Wesołowska & Tomasiewicz	F	Poland	Europe
+Wesołowska & van Harten	F	Poland	Europe
+Wesołowska, Azarkina & Russell-Smith	F	Poland	Europe
+West	M	Canada	N America
+West & Nunn	M	Canada	N America
+West, Nunn & Hogg	M	Canada	N America
+Westring	M	Sweden	Europe
+White	M	Scotland	Europe
+Wiehle	M	Germany	Europe
+Wijesinghe	M	Sri Lanka	Asia
+Wilson, Rix & Raven	M	Australia	Oceania
+Wilton	M	New Zealand	Oceania
+Wishart	M	Australia	Oceania
+Wishart & Rowell	M	Australia	Oceania
+Womersley	F	United States of America	N America
+Wood	F	Denmark	Europe
+Wood & Scharff	F	Denmark	Europe
 Wu & Li	M	China	Asia
 Wu & Yang	M	China	Asia
+Wunderlich	M	Germany	Europe
+Wunderlich & Song	M	Germany	Europe
 Xiong, Liu & Zhang	F	China	Asia
 Xu	F	China	Asia
 Xu & Li	F	China	Asia
@@ -526,6 +1455,12 @@ Xu, Yang & Song	F	China	Asia
 Xu, Yin & Griswold	F	China	Asia
 Xu, Zhang & Yao	M	China	Asia
 Xu, Zheng & Yao	M	China	Asia
+Yaginuma	M	Japan	Asia
+Yamaguchi & Yaginuma	M	Japan	Asia
+Yamamoto, Lucas & Brescovit	M	Japan	Asia
+Yamamoto, Lucas, Guadanucci & Indicatti	M	Japan	Asia
+Yamasaki	M	Japan	Asia
+Yamasaki & Ahmad	M	Japan	Asia
 Yang & Mao	M	China	Asia
 Yang & Tang	F	China	Asia
 Yang, Wang & Yang	M	China	Asia
@@ -550,6 +1485,18 @@ Yu & Li	M	China	Asia
 Yu & Song	M	China	Asia
 Yuan, Zhao & Zhang	F	China	Asia
 Z. B. Yang, Zhao, Zhang & Z. Z. Yang	M	China	Asia
+Żabka	M	Poland	Europe
+Zabka & Gray	M	Poland	Europe
+Zabka & Kovac	M	Poland	Europe
+Żabka & Patoleta	M	Poland	Europe
+Zabka & Patoleta	M	Poland	Europe
+Zabka & Waldock	M	Poland	Europe
+Zabka	M	Poland	Europe
+Zamani	M	Iran	Asia
+Zamani & Marusik	M	Iran	Asia
+Zamani, Marusik & Šestáková	M	Iran	Asia
+Zamani, Mirshamsi & Marusik	M	Iran	Asia
+Zapfe	F	Chile	S America
 Zeng, Wang & Peng	F	China	Asia
 Zhai & Zhu	F	China	Asia
 Zhang	M	China	Asia
@@ -594,956 +1541,9 @@ Zhu, Song & Zhang	M	China	Asia
 Zhu, Zhang & Chen	M	China	Asia
 Zhu, Zhang & Yang	M	China	Asia
 Zhu, Zhang, Song & Qu	M	China	Asia
-Cabra-García & Brescovit	M	Colombia	S America
-Cala-Riquelme	M	Colombia	S America
-Cala-Riquelme & Agnarsson	M	Colombia	S America
-Cala-Riquelme, Quijano-Cuervo & Sabogal-Gonzáles	M	Colombia	S America
-Galvis	M	Colombia	S America
-Galvis & Moreno	M	Colombia	S America
-Hazzi & Silva-Dávila	M	Colombia	S America
-Hazzi, Polotow, Brescovit, González-Obando & Simó	M	Colombia	S America
-Martinez-G & Villarreal	M	Colombia	S America
-Martinez & Galvis	M	Colombia 	S America
-Martínez, Brescovit & Martinez	M	Colombia 	S America
-Víquez	M	Costa Rica	N America
-Pavlek & Ribera	F	Croatia	Europe
-Alayón	M	Cuba	N America
-Alayón & Víquez	M	Cuba	N America
-Franganillo	M	Cuba	N America
-Ortiz	M	Cuba	N America
-Pérez & Huber	M	Cuba	N America
-Sánchez-Ruiz	M	Cuba	N America
-Sánchez-Ruiz & Brescovit	M	Cuba	N America
-Sánchez-Ruiz, Brescovit & Alayón	M	Cuba	N America
-Sánchez-Ruiz, Brescovit & Bonaldo	M	Cuba	N America
-Sánchez-Ruiz, Platnick & Dupérré	M	Cuba	N America
-Gücel, Fuller, Göçmen & Kunt	M	Cyprus	Europe
-Kubcová	F	Czech Republic	Europe
-Absolon & Kratochvíl	M	Czech Republic	Europe
-Buchar	M	Czech Republic	Europe
-Kaderka	M	Czech Republic	Europe
-Kratochvíl	M	Czech Republic	Europe
-Kratochvíl & Miller	M	Czech Republic	Europe
-Miller & Buchar	M	Czech Republic	Europe
-Miller & Kratochvíl	M	Czech Republic	Europe
-Miller & Polenec	M	Czech Republic	Europe
-Miller & Weiss	M	Czech Republic	Europe
-Nosek	M	Czech Republic	Europe
-Opatova & Arnedo	F	Czech Republic	Europe
-Pekár	M	Czech Republic	Europe
-Pekár & Cardoso	M	Czech Republic	Europe
-Řezáč	M	Czech Republic	Europe
-Řezáč, Růžička, Oger & Řezáčová	M	Czech Republic	Europe
-Růžička	F	Czech Republic	Europe
-Šilhavý	M	Czech Republic	Europe
-Dobroruka	M	Czech Republic	Europe
-Strand	M	Latvia, Norway	Europe
-Lissner	M	Denmark	Europe
-Bjørn	M	Denmark	Europe
-Brændegaard	M	Denmark	Europe
-Sørensen	M	Denmark	Europe
-Wood	F	Denmark	Europe
-Wood & Scharff	F	Denmark	Europe
-El-Hennawy	M	Egypt	Africa
-Hackman	M	Finland	Europe
-Järvi	M	Finland	Europe
-Kauri	M	Finland	Europe
-Lehtinen	M	Finland	Europe
-Lehtinen & Saaristo	M	Finland	Europe
-Saaristo	M	Finland	Europe
-Saaristo & Marusik	M	Finland	Europe
-Saaristo & Tanasevitch	M	Finland	Europe
-Saaristo & van Harten	M	Finland	Europe
-Audouin	M	France	Europe
-Benoit	M	France	Europe
-Benoit & Emerit	M	France	Europe
-Berland	M	France	Europe
-Berland & Millot	M	France	Europe
-Blandin	M	France	Europe
-Brullé	M	France	Europe
-Canard	M	France	Europe
-Cornic	M	France	Europe
-Dalmas	M	France	Europe
-Denis	M	France	Europe
-Dierkens	M	France	Europe
-Dresco	M	France	Europe
-Dresco & Canard	M	France	Europe
-Emerit	M	France	Europe
-Emerit & Lopez	M	France	Europe
-Fage	M	France	Europe
-Fage & Kratochvíl	M	France	Europe
-Girard	M	France	Europe
-Guérin	M	France	Europe
-Guy	M	France	Europe
-Guy & Carricaburu	M	France	Europe
-Hervé	M	France	Europe
-Hervé, Roberts & Murphy	M	France	Europe
-Hubert	M	France	Europe
-Jézéquel	M	France	Europe
-Latreille	M	France	Europe
-Lecigne	M	France	Europe
-Lecigne, Cornic, Oger & Van Keer	M	France	Europe
-Ledoux	M	France	Europe
-Legendre	M	France	Europe
-Lopez	M	France	Europe
-Lopez & Emerit	M	France	Europe
-Maréchal	M	France	Europe
-Maréchal & Marty	M	France	Europe
-Marinaro	M	France	Europe
-Millot	M	France	Europe
-Rollard & Wesołowska	F	France	Europe
-Simon	M	France	Europe
-Simon & Fage	M	France	Europe
-Tesmoingt	M	France	Europe
-Tesmoingt, Cleton & Verdez	M	France	Europe
-Vedel & Jäger	M	France	Europe
-Vinson	M	France	Europe
-Vol	M	France	Europe
-Walckenaer	M	France	Europe
-Bertkau	M	Gemany	Europe
-Baehr	F	Germany	Europe
-Barensteiner & Wehinger	F	Germany	Europe
-Bauchhenss & Uhlenhaut	F	Germany	Europe
-Bayer	M	Germany	Europe
-Bayer & Jäger	M	Germany	Europe
-Bayer, Foelix & Alderweireldt	M	Germany	Europe
-Blest	M	Germany	Europe
-Blest & Vink	M	Germany	Europe
-Blick	M	Germany	Europe
-Bösenberg	M	Germany	Europe
-Bösenberg & Lenz	M	Germany	Europe
-Bösenberg & Strand	M	Germany	Europe
-Bullmer, Thierer-Lutz & Schmidt	M	Germany	Europe
-C. Koch	M	Germany	Europe
-C. L. Koch	M	Germany	Europe
-Casemir	M	Germany	Europe
-Dönitz	M	Germany	Europe
-Dönitz & Strand	M	Germany	Europe
-Fardiansah & Dupérré	M	Germany	Europe
-Grall & Jäger	F	Germany	Europe
-Grasshoff	M	Germany	Europe
-Hahn	M	Germany	Europe
-Harmer & Framenau	M	Germany	Europe
-Harms & Framenau	M	Germany	Europe
-Harms & Harvey	M	Germany	Europe
-Haupt	M	Germany	Europe
-Heimer	M	Germany	Europe
-Höfer & Brescovit	M	Germany	Europe
-Jäger	M	Germany	Europe
-Jäger & Dankittipakul	M	Germany	Europe
-Jäger & Krehenwinkel	M	Germany	Europe
-Jäger & Kunz	M	Germany	Europe
-Jäger & Ono	M	Germany	Europe
-Jäger & Praxaysombath	M	Germany	Europe
-Jäger & Vedel	M	Germany	Europe
-Jäger & Wunderlich	M	Germany	Europe
-Jäger, Rheims & Labarque	M	Germany	Europe
-Karsch	M	Germany	Europe
-Keyserling	M	Germany	Europe
-Kraus	M	Germany	Europe
-Kritscher	M	Germany	Europe
-L. Koch	M	Germany	Europe
-Martin	M	Germany	Europe
-Meise	M	Germany	Europe
-Metzner	M	Germany	Europe
-Michalik & Wunderlich	M	Germany	Europe
-Müller	M	Germany	Europe
-Müller & Heimer	M	Germany	Europe
-Muster	M	Germany	Europe
-Muster & Thaler	M	Germany	Europe
-Muster & Van Keer	M	Germany	Europe
-Otto & Hill	M	Germany	Europe
-Otto & Tanasevitch	M	Germany	Europe
-Roewer	M	Germany	Europe
-Rudloff	M	Germany	Europe
-Rudloff & Weinmann	M	Germany	Europe
-Saager	M	Germany	Europe
-Schäfer	M	Germany	Europe
-Schikora	M	Germany	Europe
-Schmidt	M	Germany	Europe
-Schmidt & Barensteiner	M	Germany	Europe
-Schmidt & Klaas	M	Germany	Europe
-Schmidt & Krause	M	Germany	Europe
-Schmidt & von Wirth	M	Germany	Europe
-Schmidt, Bullmer & Thierer-Lutz	M	Germany	Europe
-Schmidt, Hettegger & Matthes	M	Germany	Europe
-von Wirth	M	Germany	Europe
-Wiehle	M	Germany	Europe
-Wunderlich	M	Germany	Europe
-Wunderlich & Song	M	Germany	Europe
-Vollmer	M	Germany or Austria	Europe
-Chatzaki	F	Greece	Europe
-Chatzaki & Arnedo	F	Greece	Europe
-Chatzaki & Komnenov	F	Greece	Europe
-Chatzaki & Russell-Smith	F	Greece	Europe
-Chatzaki & Seyyar	F	Greece	Europe
-Hadjissarantos	M	Greece	Europe
-Balogh	M	Hungary	Europe
-Balogh & Loksa	M	Hungary	Europe
-Doleschall	M	Hungary	Europe
-Herman	M	Hungary	Europe
-Kolosváry	M	Hungary	Europe
-Kovács, Prazsák, Eichardt, Vári & Gyurkovics	M	Hungary	Europe
-Lendl	M	Hungary	Europe
-Loksa	M	Hungary	Europe
-Szinetár & Samu	M	Hungary	Europe
-Szűts	M	Hungary	Europe
-Szűts & Jocqué	M	Hungary	Europe
-Szűts & Scharff	M	Hungary	Europe
-Szűts & Ubick	M	Hungary	Europe
-Agnarsson	M	Iceland	Europe
-Agnarsson & Chomitz	M	Iceland	Europe
-Agnarsson & Goh	M	Iceland	Europe
-Agnarsson & Kuntner	M	Iceland	Europe
-Agnarsson & Sargeant	M	Iceland	Europe
-Agnarsson & Van Patten	M	Iceland	Europe
-Agnarsson, Kuntner & Jencik	M	Iceland	Europe
-Agnarsson, Veve & Kuntner	M	Iceland	Europe
-Ahmed, Anam, Saikia, Manthen & Saikia	M	Iceland	Europe
-Ahmed, Sumukha, Khalap, Mohan & Jadhav	M	Iceland	Europe
-Bastawade	M	India	Asia
-Basu	M	India	Asia
-Basumatary & Brahma	M	India	Asia
-Bhandari & Gajbe	F	India	Asia
-Bodkhe, Manthen & Tanikawa	M	India	Asia
-Bodkhe, Uniyal, Kamble, Manthen, Santape & Chikhale	M	India	Asia
-Caleb	M	India	Asia
-Caleb & Mathai	M	India	Asia
-Caleb, Chatterjee, Tyagi, Kundu & Kumar	M	India	Asia
-Caleb, Mungkung & Mathai	M	India	Asia
-Chennappaiya	M	India	Asia
-Das, Malik & Vidhel (/!\ The first author is Vidhel, a student, mentored by Das)	M	India	Asia
-Gajbe	M	India	Asia
-Gajbe & Gajbe	M	India	Asia
-Gajbe & Rane	M	India	Asia
-Gravely	M	India	Asia
-Keswani	F	India	Asia
-Kumari & Mittal	F	India	Asia
-Majumder	M	India	Asia
-Majumder & Tikader	M	India	Asia
-Malamel, Nafin, Sankaran & Sebastian	M	India	Asia
-Malamel, Prajapati, Sudhikumar & Sebastian	M	India	Asia
-Mirza & Sanap	M	India	Asia
-Mirza, Bhosale & Sanap	M	India	Asia
-Monga & Singh	F	India	Asia
-Monga, Singh & Sadana	F	India	Asia
-Murugesan, Mathew, Sudhikumar, Sunish, Biju & Sebastian	M	India	Asia
-Narayan	M	India	Asia
-Patel	?	India	Asia
-Patel & Patel	M	India	Asia
-Patel & Reddy	M	India	Asia
-Pillai	M	India	Asia
-Prajapati	M	India	Asia
-Prajapati, Malamel, Sudhikumar & Sebastian	M	India	Asia
-Prajapati, Murthappa, Sankaran & Sebastian	M	India	Asia
-Reddy & Patel	M	India	Asia
-Sadana	M	India	Asia
-Sadana & Gupta	M	India	Asia
-Saha & Raychaudhuri	F	India	Asia
-Sanap, Caleb & Joglekar	M	India	Asia
-Sankaran & Sebastian	M	India	Asia
-Sen	?	India	Asia
-Sen & Basu	?	India	Asia
-Sen, Dhali, Saha & Raychaudhuri	M	India	Asia
-Sethi & Tikader	F	India	Asia
-Siliwal, Molur & Raven	F	India	Asia
-Sunil Jose	M	India	Asia
-Talwar, Majagi, Bodkhe & Kamble	F	India	Asia
-Tikader	M	India	Asia
-Tikader & Bal	M	India	Asia
-Tikader & Gajbe	M	India	Asia
-Tikader & Malhotra	M	India	Asia
-Mirshamsi	M	Iran	Asia
-Mirshamsi & Marusik	M	Iran	Asia
-Mirshamsi, Zamani & Marusik	M	Iran	Asia
-Moradmand	M	Iran	Asia
-Moradmand, Zamani & Jäger	M	Iran	Asia
-Shafaie, Mirshamsi, Aliabadian, Moradmand & Marusik	F	Iran	Asia
-Zamani	M	Iran	Asia
-Zamani & Marusik	M	Iran	Asia
-Zamani, Marusik & Šestáková	M	Iran	Asia
-Zamani, Mirshamsi & Marusik	M	Iran	Asia
-Levi	M	Israel	Asia
-Levy	M	Israel	Asia
 Zonstein	M	Israel	Asia
 Zonstein & Marusik	M	Israel	Asia
 Zonstein & Ovtchinnikov	M	Israel	Asia
 Zonstein, Kunt & Yağmur	M	Israel	Asia
-Alicata	M	Italy	Europe
-Alicata & Cantarella	M	Italy	Europe
-Ballarin & Pantini	M	Italy	Europe
-Ballarin, Marusik, Omelko & Koponen	M	Italy	Europe
-Brignoli	M	Italy	Europe
-Canestrini	M	Italy	Europe
-Cantarella	F	Italy	Europe
-Cantarella & Alicata	F	Italy	Europe
-Caporiacco	M	Italy	Europe
-Di Franco	F	Italy	Europe
-Gasparo	M	Italy	Europe
-Gasparo & Arnedo	M	Italy	Europe
-Isaia	M	Italy	Europe
-Isaia & Mammola	M	Italy	Europe
-Isaia & Pantini	M	Italy	Europe
-Leardi	M	Italy	Europe
-Lugetti & Tongiorgi	M	Italy	Europe
-Mazzoleni & Pantini (/!\ Pantini is 1st of the two in all I've found)	F	Italy	Europe
-Ninni	M	Italy	Europe
-Pavesi	M	Italy	Europe
-Pesarini	M	Italy	Europe
-Scopoli	M	Italy	Europe
-Tongiorgi	M	Italy	Europe
-Trotta	M	Italy	Europe
-Arita	M	Japan	Asia
-Baba	M	Japan	Asia
-Baba & Tanikawa	M	Japan	Asia
-Chida & Tanikawa	M	Japan	Asia
-Chikuni	M	Japan	Asia
-Hayashi	F	Japan	Asia
-Ihara	?	Japan	Asia
-Ikeda	M	Japan	Asia
-Irie	M	Japan	Asia
-Irie & Ono	M	Japan	Asia
-Kamura	M	Japan	Asia
-Kishida	M	Japan	Asia
-Komatsu	M	Japan	Asia
-Matsuda & Ono	F	Japan	Asia
-Nakatsudi	M	Japan	Asia
-Nishikawa	M	Japan	Asia
-Oi	M	Japan	Asia
-Okuma	F	Japan	Asia
-Okumura	M	Japan	Asia
-Okumura, Ono & Nishikawa	M	Japan	Asia
-Ono	M	Japan	Asia
-Ono & Hashim	M	Japan	Asia
-Ono & Jocqué	M	Japan	Asia
-Ono & Martens	M	Japan	Asia
-Ono & Ogata	M	Japan	Asia
-Ono & Saito	M	Japan	Asia
-Ono & Schwendinger	M	Japan	Asia
-Ono & Tanikawa	M	Japan	Asia
-Saito	M	Japan	Asia
-Saito & Irie	M	Japan	Asia
-Saito & Ono	M	Japan	Asia
-Shinkai	M	Japan	Asia
-Suguro	M	Japan	Asia
-Taginuma (rather Yaginuma)	M	Japan	Asia
-Tanaka	M	Japan	Asia
-Tanaka & Suwa	M	Japan	Asia
-Tanikawa	M	Japan	Asia
-Tanikawa & Ono	M	Japan	Asia
-Tazoe	F	Japan	Asia
-Uyemura	M	Japan	Asia
-Yaginuma	M	Japan	Asia
-Yamaguchi & Yaginuma	M	Japan	Asia
-Yamamoto, Lucas & Brescovit	M	Japan	Asia
-Yamamoto, Lucas, Guadanucci & Indicatti	M	Japan	Asia
-Yamasaki	M	Japan	Asia
-Yamasaki & Ahmad	M	Japan	Asia
 Zyuzin & Logunov	M	Kazakhstan	Asia
 Zyuzin & Marusik	M	Kazakhstan	Asia
-Savelyeva	F	Kazakhtsan	Asia
-Paik	?	Korea	Asia
-Paik & Yaginuma	?	Korea	Asia
-Seo & Sohn	M	Korea	Asia
-Kim	M	Korea 	Asia
-Kim & Park	M	Korea 	Asia
-Kim & Seong	M	Korea 	Asia
-Kim, Jung, Kim & Lee	M	Korea 	Asia
-Kim, Lee, Lee & Hong	M	Korea 	Asia
-Kim, Yoo & Lee	M	Korea 	Asia
-Ovtchinnikov	M	Kyrgystan	Asia
-Sternbergs	M	Latvia	Europe
-Tan	M	Malaysia	Asia
-Álvarez-Padilla	M	Mexico	N America
-Álvarez-Padilla, Kallal & Hormiga	M	Mexico	N America
-Álvarez-Padilla, Ubick & Griswold	M	Mexico	N America
-Candia-Ramírez & Valdez-Mondragón	F	Mexico	N America
-Chamé-Vázquez & Ibarra-Núñez	M	Mexico	N America
-Chamé-Vázquez, Ibarra-Núñez & Jiménez	M	Mexico	N America
-Durán-Barrón, Pérez & Brescovit	M	Mexico	N America
-Estrada-Alvarez	M	Mexico	N America
-Estrada-Alvarez & Locht	M	Mexico	N America
-García-Villafuerte	M	Mexico	N America
-García-Villafuerte & Locht	M	Mexico	N America
-Guerrero-Fuentes & Francke	F	Mexico	N America
-Ibarra & Jiménez	M	Mexico	N America
-Ibarra-Núñez	M	Mexico	N America
-Jiménez	F	Mexico	N America
-Jiménez & Dondale	F	Mexico	N America
-Jiménez & Llinas	F	Mexico	N America
-Jiménez & Palacios-Cardiel	F	Mexico	N America
-Locht & Medina	M	Mexico	N America
-Locht, Medina, Rojo & Vázquez	M	Mexico	N America
-Maya-Morales & Jiménez	F	Mexico	N America
-Mendoza	M	Mexico	N America
-Mendoza & Francke	M	Mexico	N America
-Ortiz & Francke	M	Mexico	N America
-Quijano-Cuervo & Galvis	M	Mexico	N America
-Rivera-Quiroz & Álvarez-Padilla	M	Mexico	N America
-Salgueiro-Sepúlveda & Álvarez-Padilla	M	Mexico	N America
-Valdez-Mondragón	M	Mexico	N America
-Valdez-Mondragón & Cortez-Roldán	M	Mexico	N America
-Valdez-Mondragón & Francke	M	Mexico	N America
-Komnenov	M	N Macedonia	Europe
-Komnenov & Chatzaki	M	N Macedonia	Europe
-Fitzgerald & Sirvid	M	New Zealand	Oceania
-Forster	M	New Zealand	Oceania
-Forster & Platnick	M	New Zealand	Oceania
-Forster & Wilton	M	New Zealand	Oceania
-Marples	M	New Zealand	Oceania
-Urquhart	M	New Zealand	Oceania
-Vink	M	New Zealand	Oceania
-Vink & Dupérré	M	New Zealand	Oceania
-Vink, Dupérré & Malumbres-Olarte	M	New Zealand	Oceania
-Wilton	M	New Zealand	Oceania
-Collett	M	Norway	Europe
-Ghafoor & Alvi	M	Pakistan	Asia
-Mukhtar	M	Pakistan	Asia
-Parveen, Khan, Mushtaq, Ahmad & Rana	F	Pakistan	Asia
-Miranda & Bermúdez	M	Panama	Asia
-Valerio	M	Panamá	N America
-Barrion	M	Philippines	Asia
-Barrion & Barrion-Dupo	M	Philippines	Asia
-Barrion & Litsinger	M	Philippines	Asia
-Barrion, Barrion-Dupo & Heong	M	Philippines	Asia
-Barrion-Dupo	F	Philippines	Asia
-Barrion-Dupo & Barrion	F	Philippines	Asia
-Barrion-Dupo, Barrion & Heong	F	Philippines	Asia
-Andreeva, Hęciak & Prószyński	F	Poland	Europe
-Bohdanowicz	M	Poland	Europe
-Bohdanowicz & Prószyński	M	Poland	Europe
-Dawidowicz & Wesołowska	F	Poland	Europe
-Gardzińska & Zabka	F	Poland	Europe
-Hęciak & Prószyński	F	Poland	Europe
-Jendrzejewska	F	Poland	Europe
-Kulczyński	M	Poland	Europe
-Patoleta	F	Poland	Europe
-Patoleta & Żabka	F	Poland	Europe
-Patoleta, Gardzińska & Żabka	F	Poland	Europe
-Próchniewicz	M	Poland	Europe
-Próchniewicz & Heçiak	M	Poland	Europe
-Prószyński	M	Poland	Europe
-Prószyński & Deeleman-Reinhold	M	Poland	Europe
-Prószyński & Wesołowska	M	Poland	Europe
-Prószyński & Zabka	M	Poland	Europe
-Prószyński & Zochowska	M	Poland	Europe
-Punda	F	Poland	Europe
-Starega	M	Poland	Europe
-Szymkowiak	M	Poland	Europe
-Taczanowski	M	Poland	Europe
-Wesołowska	F	Poland	Europe
-Wesołowska & Cumming	F	Poland	Europe
-Wesołowska & Dawidowicz	F	Poland	Europe
-Wesołowska & Haddad	F	Poland	Europe
-Wesołowska & Russell-Smith	F	Poland	Europe
-Wesołowska & Szűts	F	Poland	Europe
-Wesołowska & Tomasiewicz	F	Poland	Europe
-Wesołowska & van Harten	F	Poland	Europe
-Wesołowska, Azarkina & Russell-Smith	F	Poland	Europe
-Zabka= SAME AS FOLLOWING	M	Poland	Europe
-Żabka	M	Poland	Europe
-Zabka & Gray	M	Poland	Europe
-Zabka & Kovac	M	Poland	Europe
-Zabka & Patoleta SAME AS IN NEXT ROW - DELETE	M	Poland	Europe
-Żabka & Patoleta	M	Poland	Europe
-Zabka & Waldock	M	Poland	Europe
-Bacelar	F	Portugal	Europe
-Brito Capello	M	Portugal	Europe
-Frade & Bacelar	M	Portugal	Europe
-Pedroso, Giupponi & Baptista	M	Portugal	Europe
-Dumitrescu	F	Romania	Europe
-Dumitrescu & Georgescu	F	Romania	Europe
-Georgescu	F	Romania	Europe
-Gruia	F	Romania	Europe
-Nae	M	Romania	Europe
-Nae, Sarbu & Weiss	M	Romania	Europe
-Roșca	M	Romania	Europe
-Sterghiu	F	Romania	Europe
-Weiss	F	Romania, Germany	Europe
-Fuhn & Polenec	M	Romania, Yugostavia - dont know which country	Europe
-Andreeva	F	Russia	Europe
-Andreeva & Tyschchenko	F	Russia	Europe
-Azarkina	F	Russia	Europe
-Azarkina, Wesołowska & Russell-Smith	F	Russia	Europe
-Bakhvalov	M	Russia	Europe
-Charitonov	M	Russia	Europe
-Danilov	M	Russia	Europe
-Dunin	M	Russia	Europe
-Dunin, Buchar & Absolon	M	Russia	Europe
-Efimik	M	Russia	Europe
-Ermolajev	?	Russia	Europe
-Eskov	M	Russia	Europe
-Eskov & Marusik	M	Russia	Europe
-Esyunin	M	Russia	Europe
-Esyunin & Efimik	M	Russia	Europe
-Esyunin & Tuneva	M	Russia	Europe
-Esyunin & Zamani	M	Russia	Europe
-Fomichev	M	Russia	Europe
-Fomichev & Logunov	M	Russia	Europe
-Fomichev & Marusik	M	Russia	Europe
-Fomichev, Marusik & Koponen	M	Russia	Europe
-Fomichev, Marusik & Sidorov	M	Russia	Europe
-Grube	M	Russia	Europe
-Izmailova	F	Russia	Europe
-Kroneberg	M	Russia	Europe
-Lobanova	F	Russia	Europe
-Logunov	M	Russia	Europe
-Logunov & Azarkina	M	Russia	Europe
-Logunov & Cutler	M	Russia	Europe
-Logunov & Hereward	M	Russia	Europe
-Logunov & Huseynov	M	Russia	Europe
-Logunov & Jäger	M	Russia	Europe
-Logunov & Kronestedt	M	Russia	Europe
-Logunov & Marusik	M	Russia	Europe
-Logunov & Obenauer	M	Russia	Europe
-Logunov & Rakov	M	Russia	Europe
-Logunov & Schäfer	M	Russia	Europe
-Logunov & Wesołowska	M	Russia	Europe
-Logunov, Cutler & Marusik	M	Russia	Europe
-Logunov, Ikeda & Ono	M	Russia	Europe
-Logunov, Marusik & Mozaffarian	M	Russia	Europe
-Logunov, Marusik & Rakov	M	Russia	Europe
-Logunov, Marusik & Trilikauskas	M	Russia	Europe
-Marusik	M	Russia	Europe
-Marusik & Ballarin	M	Russia	Europe
-Marusik & Esyunin	M	Russia	Europe
-Marusik & Fet	M	Russia	Europe
-Marusik & Fomichev	M	Russia	Europe
-Marusik & Fritzén	M	Russia	Europe
-Marusik & Gnelitsa	M	Russia	Europe
-Marusik & Guseinov	M	Russia	Europe
-Marusik & Koponen	M	Russia	Europe
-Marusik & Kovblyuk	M	Russia	Europe
-Marusik & Larsen	M	Russia	Europe
-Marusik & Leech	M	Russia	Europe
-Marusik & Logunov	M	Russia	Europe
-Marusik & Omelko	M	Russia	Europe
-Marusik & Tanasevitch	M	Russia	Europe
-Marusik & Tsellarius	M	Russia	Europe
-Marusik & Zamani	M	Russia	Europe
-Marusik & Zonstein	M	Russia	Europe
-Marusik, Azarkina & Koponen	M	Russia	Europe
-Marusik, Fomichev & Omelko	M	Russia	Europe
-Marusik, Fomichev & Vahtera	M	Russia	Europe
-Marusik, Gnelitsa & Koponen	M	Russia	Europe
-Marusik, Gnelitsa & Kovblyuk	M	Russia	Europe
-Marusik, Hippa & Koponen	M	Russia	Europe
-Marusik, Koponen & Danilov	M	Russia	Europe
-Marusik, Nadolny & Omelko	M	Russia	Europe
-Marusik, Omelko & Koponen	M	Russia	Europe
-Marusik, Omelko & Ponomarev	M	Russia	Europe
-Marusik, Zamani & Mirshamsi	M	Russia	Europe
-Marusik, Zhang & Omelko	M	Russia	Europe
-Mikhailov	M	Russia	Europe
-Mikhailov & Ponomarev	M	Russia	Europe
-Nekhaeva, Marusik & Buckle	F	Russia	Europe
-Oliger	F	Russia	Europe
-Omelko & Marusik	M	Russia	Europe
-Omelko, Komisarenko & Marusik	M	Russia	Europe
-Omelko, Marusik & Koponen	M	Russia	Europe
-Ponomarev	M	Russia	Europe
-Ponomarev & Shmatko	M	Russia	Europe
-Ponomarev & Tsvetkov	M	Russia	Europe
-Rakov	M	Russia	Europe
-Rakov & Logunov	M	Russia	Europe
-Seyfulina & Mikhailov	F	Russia	Europe
-Spassky	M	Russia	Europe
-Sytshevskaja	F	Russia	Europe
-Tanasevitch	M	Russia	Europe
-Tanasevitch & Piterkina	M	Russia	Europe
-Trilikauskas	M	Russia	Europe
-Tuneva	F	Russia	Europe
-Tuneva & Esyunin	F	Russia	Europe
-Werjbitzky	F	Russia	Europe
-Azarkina & Foord	F	Russia 	Europe
-Azarkina & Komnenov	F	Russia 	Europe
-Azarkina & Zamani	F	Russia 	Europe
-White	M	Scotland	Europe
-Miller	M	Several, Czech, and Netherland	Europe
-Chyzer	M	Slovaquia	Europe
-Gregorič	M	Slovenia	Europe
-Gregorič, Blackledge, Agnarsson & Kuntner	M	Slovenia	Europe
-Kuntner	M	Slovenia	Europe
-Kuntner & Agnarsson	M	Slovenia	Europe
-Kuntner & Coddington	M	Slovenia	Europe
-Kuntner & Hormiga	M	Slovenia	Europe
-Polenec & Thaler	M	Slovenia	Europe
-Croeser	M	South Africa	Africa
-Dippenaar & Meyer	F	South Africa	Africa
-Dippenaar-Schoeman	F	South Africa	Africa
-Engelbrecht & Prendini	M	South Africa	Africa
-Foord	M	South Africa	Africa
-Foord & Dippenaar-Schoeman	M	South Africa	Africa
-Fourie, Haddad & Jocqué	M	South Africa	Africa
-Griswold	M	South Africa	Africa
-Haddad	M	South Africa	Africa
-Haddad & Lyle	M	South Africa	Africa
-Haddad & Mbo	M	South Africa	Africa
-Haddad & Wesołowska	M	South Africa	Africa
-Haddad, Lyle, Bosselaers & Ramírez	M	South Africa	Africa
-Harington	M	South Africa	Africa
-Hewitt	M	South Africa	Africa
-Khoza & Lyle	F	South Africa	Africa
-Lamoral	M	South Africa	Africa
-Lawrence	M	South Africa	Africa
-Lenz	M	South Africa	Africa
-Lewis & Dippenaar-Schoeman	?	South Africa	Africa
-Lotz	M	South Africa	Africa
-Lyle	F	South Africa	Africa
-Lyle & Haddad	F	South Africa	Africa
-Mbo & Haddad	M	South Africa	Africa
-Newlands	M	South Africa	Africa
-Purcell	M	South Africa	Africa
-Roff & Dippenaar-Schoeman	M	South Africa	Africa
-Roff & Haddad	M	South Africa	Africa
-Tucker	M	South Africa	Africa
-Van den Berg & Dippenaar-Schoeman	F	South Africa	Africa
-van Niekerk & Dippenaar-Schoeman	M	South Africa	Africa
-Warui & Jocqué	M	South Africa	Africa
-Arnedo & Ribera	M	Spain	Europe
-Arnedo, Oromí & Ribera	M	Spain	Europe
-Barrientos	M	Spain	Europe
-Ferrández	M	Spain	Europe
-Jiménez-Valverde, Barriga & Moreno	M	Spain	Europe
-Melic	M	Spain	Europe
-Melic, Silva & Barrientos	M	Spain	Europe
-Morano	M	Spain	Europe
-Planas & Ribera	M	Spain	Europe
-Ribera	M	Spain	Europe
-Ribera & Blasco	M	Spain	Europe
-Ribera & De Mas	M	Spain	Europe
-Ribera & Ferrández	M	Spain	Europe
-Ribera & Guerao	M	Spain	Europe
-Ribera & Lopez	M	Spain	Europe
-Ribera & Planas	M	Spain	Europe
-Ribera, Elverici, Kunt & Özkütük	M	Spain	Europe
-Urones	F	Spain	Europe
-Benjamin	M	Sri Lanka	Asia
-Benjamin & Kanesharatnam	M	Sri Lanka	Asia
-Ileperuma Arachchi & Benjamin	F	Sri Lanka	Asia
-Kanesharatnam & Benjamin	F	Sri Lanka	Asia
-Nanayakkara, Kirk, Dayananda, Ganehiarachchi, Vishvanath & Kusuminda	M	Sri Lanka	Asia
-Nanayakkara, Sumanapala & Kirk	M	Sri Lanka	Asia
-Ranasinghe & Benjamin	F	Sri Lanka	Asia
-Wijesinghe	M	Sri Lanka	Asia
-Holm	M	Sweden	Europe
-Kronestedt	M	Sweden	Europe
-Kronestedt & Marusik	M	Sweden	Europe
-Kronestedt, Marusik & Omelko	M	Sweden	Europe
-Lohmander	M	Sweden	Europe
-Sundevall	M	Sweden	Europe
-Thorell	M	Sweden	Europe
-Tullgren	M	Sweden	Europe
-Westring	M	Sweden	Europe
-Bolzern	M	Switzerland	Europe
-Bolzern & Hänggi	M	Switzerland	Europe
-Bolzern & Platnick	M	Switzerland	Europe
-Bolzern, Burckhardt & Hänggi	M	Switzerland	Europe
-Bolzern, Crespo & Cardoso	M	Switzerland	Europe
-Bolzern, Pantini & Isaia	M	Switzerland	Europe
-Bourne	M	Switzerland	Europe
-Comellini	M	Switzerland	Europe
-Eichenberger	F	Switzerland	Europe
-Frick & Isaia	M	Switzerland	Europe
-Frick & Scharff	M	Switzerland	Europe
-Hüsser	M	Switzerland	Europe
-Kranz-Baltensperger	F	Switzerland	Europe
-Maurer	M	Switzerland	Europe
-Nicolet	M	Switzerland	Europe
-Perty	M	Switzerland	Europe
-Richard	M	Switzerland	Europe
-Schwendinger	M	Switzerland	Europe
-Schwendinger & Hongpadharakiree	M	Switzerland	Europe
-Schwendinger & Zonstein	M	Switzerland	Europe
-Senglet	M	Switzerland	Europe
-Thoma	M	Switzerland	Europe
-Tso, Haupt & Zhu	M	Taiwan	Asia
-Kononenko	?	Tajikistan	Asia
-Chami-Kranon & Likhitrakarn	M	Thailand	Asia
-Dankittipakul	M	Thailand	Asia
-Dankittipakul & Jocqué	M	Thailand	Asia
-Dankittipakul & Schwendinger	M	Thailand	Asia
-Dankittipakul & Singtripop	M	Thailand	Asia
-Dankittipakul & Wang	M	Thailand	Asia
-Dankittipakul & Zhang	M	Thailand	Asia
-Dankittipakul, Jocqué & Singtripop	M	Thailand	Asia
-Dankittipakul, Sonthichai & Wang	M	Thailand	Asia
-Dankittipakul, Tavano & Singtripop	M	Thailand	Asia
-Ponksee & Tanikawa	?	Thailand	Asia
-Chrysanthus	M	The Netherlands	Europe
-Deeleman-Reinhold	F	The Netherlands	Europe
-Deeleman-Reinhold & Platnick	F	The Netherlands	Europe
-Deeleman-Reinhold & van Harten	F	The Netherlands	Europe
-Hasselt	M	The Netherlands	Europe
-Makhan	M	The Netherlands	Europe
-Makhan & Ezzatpanah	M	The Netherlands	Europe
-Miller, Griswold & Haddad	M	The Netherlands	Europe
-Miller, Griswold & Yin	M	The Netherlands	Europe
-Miller, Griswold, Scharff, Řezáč, Szűts & Marhabaie	M	The Netherlands	Europe
-van Hasselt	M	The Netherlands	Europe
-van Helsdingen	M	The Netherlands	Europe
-Cooke	M	there are 2	
-Dahl	F	there are 2, F born in Russian Empire-Ukraine but worked in Germany	Europe
-Abrous & Bosmans	F	Tunisia	Africa
-Akpınar	F	Turkey	Asia
-Bayram, Kunt & Yağmur	M	Turkey	Asia
-Danişman & Coşar	M	Turkey	Asia
-Danişman, Sancak, Erdek & Coşar	M	Turkey	Asia
-Demir, Seyyar & Türker	M	Turkey	Asia
-Demir, Topçu & Seyyar	M	Turkey	Asia
-Demir, Topçu & Türkes	M	Turkey	Asia
-Karakaş Kiliç & Özkütük	F	Turkey	Asia
-Karol	F	Turkey	Asia
-Kaya, Kunt, Marusik & Uğurtaş	F	Turkey	Asia
-Kunt & Marusik	M	Turkey	Asia
-Kunt & Yağmur	M	Turkey	Asia
-Kunt, Elverici, Özkütük & Yağmur	M	Turkey	Asia
-Kunt, Özkütük & Elverici	M	Turkey	Asia
-Özdikmen & Demir	M	Turkey	Asia
-Özkütük, Elverici, Yağmur & Kunt	M	Turkey	Asia
-Seyyar, Demir & Türkes	M	Turkey	Asia
-Topçu, Türkes & Seyyar	M	Turkey	Asia
-Türkeş, Karabulut, Demir & Seyyar	M	Turkey	Asia
-Varol	M	Turkey	Asia
-Varol & Akpınar	M	Turkey	Asia
-Pichka	F	Ua	
-Evtushenko	M	Ukaine	Europe
-Kovblyuk	M	Ukraine	Europe
-Kovblyuk & Kastrygina	M	Ukraine	Europe
-Kovblyuk & Nadolny	M	Ukraine	Europe
-Kovblyuk & Ponomarev	M	Ukraine	Europe
-Kovblyuk & Seyyar	M	Ukraine	Europe
-Kovblyuk, Kastrygina & Marusik	M	Ukraine	Europe
-Kovblyuk, Kastrygina & Omelko	M	Ukraine	Europe
-Kovblyuk, Kastrygina, Marusik & Ponomarev	M	Ukraine	Europe
-Kovblyuk, Marusik & Omelko	M	Ukraine	Europe
-Nadolny & Ponomarev	M	Ukraine	Europe
-Nadolny, Omelko, Marusik & Blagoev	M	Ukraine	Europe
-Hyatt	M	United Kindgom	Europe
-Günther	M	United Kindgom	Europe
-Blackwall	M	United Kingdom	Europe
-Bristowe	M	United Kingdom	Europe
-Butler	M	United Kingdom	Europe
-Charpentier	M	United Kingdom	Europe
-Clark & Benoit	M	United Kingdom	Europe
-Edmunds & Prószyński	M	United Kingdom	Europe
-F. O. Pickard-Cambridge	M	United Kingdom	Europe
-Gabriel	M	United Kingdom	Europe
-Gabriel & Sherwood	M	United Kingdom	Europe
-Gallon	M	United Kingdom	Europe
-Gallon, Gabriel & Tansley	M	United Kingdom	Europe
-Griffith	M	United Kingdom	Europe
-Henriques, Miñano & Pérez-Zarcos	M	United Kingdom	Europe
-Hogg	M	United Kingdom	Europe
-Jackson	M	United Kingdom	Europe
-Kirk	M	United Kingdom	Europe
-Locket	M	United Kingdom	Europe
-Locket & Russell-Smith	M	United Kingdom	Europe
-MacLeay	M	United Kingdom	Europe
-Merrett	M	United Kingdom	Europe
-Merrett & Russell-Smith	M	United Kingdom	Europe
-Millidge	M	United Kingdom	Europe
-Millidge & Russell-Smith	M	United Kingdom	Europe
-O. Pickard-Cambridge	M	United Kingdom	Europe
-Pocock	M	United Kingdom	Europe
-Pocock & Rothschild	M	United Kingdom	Europe
-Roberts	M	United Kingdom	Europe
-Russell-Smith	M	United Kingdom	Europe
-Russell-Smith & Jocqué	M	United Kingdom	Europe
-Savory	M	United Kingdom	Europe
-Smith & Jacobi	M	United Kingdom	Europe
-Usher	M	United Kingdom	Europe
-Wanless	M	United Kingdom	Europe
-Wanless & Clark	M	United Kingdom	Europe
-Andriamalala	F	United States of America	N America
-Archer	M	United States of America	N America
-Banks	M	United States of America	N America
-Barnes	M	United States of America	N America
-Barrows	M	United States of America	N America
-Barrows & Ivie	M	United States of America	N America
-Beatty	M	United States of America	N America
-Beatty & Berry	M	United States of America	N America
-Berry, Beatty & Prószyński	M	United States of America	N America
-Bishop & Crosby	M	United States of America	N America
-Bond	M	United States of America	N America
-Bond & Godwin	M	United States of America	N America
-Bond & Opell	M	United States of America	N America
-Bond & Platnick	M	United States of America	N America
-Bond & Taylor	M	United States of America	N America
-Bosco & Chuang	F	United States of America	N America
-Bryant	F	United States of America	N America
-Burger	M	United States of America	N America
-Carico	M	United States of America	N America
-Carico & Minch	M	United States of America	N America
-Chamberlin	M	United States of America	N America
-Chamberlin & Gertsch	M	United States of America	N America
-Chamberlin & Ivie	M	United States of America	N America
-Chamberlin & Woodbury	M	United States of America	N America
-Chapin	M	United States of America	N America
-Chickering	M	United States of America	N America
-Chomitz & Agnarsson	M	United States of America	N America
-Cockerell	M	United States of America	N America
-Coddington	M	United States of America	N America
-Coddington, Kuntner & Opell	M	United States of America	N America
-Cokendolpher	M	United States of America	N America
-Cokendolpher & Reddell	M	United States of America	N America
-Cokendolpher, Peck & Niwa	M	United States of America	N America
-Coyle	M	United States of America	N America
-Coyle & McGarity	M	United States of America	N America
-Crane	F	United States of America	N America
-Crawford & Edwards	M	United States of America	N America
-Crews	F	United States of America	N America
-Crews & Harvey	F	United States of America	N America
-Crosby	M	United States of America	N America
-Crosby & Bishop	M	United States of America	N America
-Cutler	M	United States of America	N America
-Cutler & Müller	M	United States of America	N America
-Draney, Milne, Ulyshen & Madriz	M	United States of America	N America
-Edwards	M	United States of America	N America
-Emerton	M	United States of America	N America
-Esposito & Agnarsson	F	United States of America	N America
-Exline	F	United States of America	N America
-Exline & Levi	F	United States of America	N America
-Fox	M	United States of America	N America
-Gertsch	M	United States of America	N America
-Gertsch & Archer	M	United States of America	N America
-Gertsch & Davis	M	United States of America	N America
-Gertsch & Ennik	M	United States of America	N America
-Gertsch & Ivie	M	United States of America	N America
-Gertsch & Jellison	M	United States of America	N America
-Gertsch & Mulaik	M	United States of America	N America
-Gertsch & Peck	M	United States of America	N America
-Gertsch & Platnick	M	United States of America	N America
-Gertsch & Riechert	M	United States of America	N America
-Gertsch & Wallace	M	United States of America	N America
-Gertsch & Zapfe	M	United States of America	N America
-Gillespie	F	United States of America	N America
-Gillespie & Rivera	F	United States of America	N America
-Griswold & Ledford	M	United States of America	N America
-Griswold & Platnick	M	United States of America	N America
-Griswold, Audisio & Ledford	M	United States of America	N America
-Griswold, Long & Hormiga	M	United States of America	N America
-Griswold, Wood & Carmichael	M	United States of America	N America
-Hamilton	M	United States of America	N America
-Hamilton, Hendrixson & Bond	M	United States of America	N America
-Hedin & Carlson	M	United States of America	N America
-Hedin & Dellinger	M	United States of America	N America
-Heiss & Draney	M	United States of America	N America
-Hendrixson & Bond	M	United States of America	N America
-Hentz	M	United States of America	N America
-Hoffman	M	United States of America	N America
-Hormiga	M	United States of America	N America
-Hormiga & Scharff	M	United States of America	N America
-Ivie	M	United States of America	N America
-Ivie & Barrows	M	United States of America	N America
-Jones --> Which one ?	F	United States of America	N America
-Kallal & Hormiga	M	United States of America	N America
-Kariko	F	United States of America	N America
-Kaston	M	United States of America	N America
-Ledford	M	United States of America	N America
-Ledford & Griswold	M	United States of America	N America
-Ledford, Paquin, Cokendolpher, Campbell & Griswold	M	United States of America	N America
-Leister & Miller	M	United States of America	N America
-LeQuier & Agnarsson	F	United States of America	N America
-Lessert	M	United States of America	N America
-Lowrie & Gertsch	M	United States of America	N America
-Marx	M	United States of America	N America
-McCook	M	United States of America	N America
-Milne & Wells	M	United States of America	N America
-Montgomery	M	United States of America	N America
-Muma	M	United States of America	N America
-Opell	M	United States of America	N America
-Ovtsharenko	M	United States of America	N America
-Ovtsharenko & Marusik	M	United States of America	N America
-Ovtsharenko & Platnick	M	United States of America	N America
-Ovtsharenko, Levy & Platnick	M	United States of America	N America
-Ovtsharenko, Platnick & Marusik	M	United States of America	N America
-Ovtsharenko, Platnick & Song	M	United States of America	N America
-Peck	M	United States of America	N America
-Peckham & Peckham	M	United States of America	N America
-Petrunkevitch	M	United States of America	N America
-Piel	M	United States of America	N America
-Platnick	M	United States of America	N America
-Platnick & Baehr	M	United States of America	N America
-Platnick & Berniker	M	United States of America	N America
-Platnick & Bird	M	United States of America	N America
-Platnick & Di Franco	M	United States of America	N America
-Platnick & Dupérré	M	United States of America	N America
-Platnick & Ewing	M	United States of America	N America
-Platnick & Forster	M	United States of America	N America
-Platnick & Griffin	M	United States of America	N America
-Platnick & Horner	M	United States of America	N America
-Platnick & Jäger	M	United States of America	N America
-Platnick & Jocqué	M	United States of America	N America
-Platnick & Lau	M	United States of America	N America
-Platnick & Murphy	M	United States of America	N America
-Platnick & Ovtsharenko	M	United States of America	N America
-Platnick & Sedgwick	M	United States of America	N America
-Platnick & Shadab	M	United States of America	N America
-Platnick & Song	M	United States of America	N America
-Platnick & Ubick	M	United States of America	N America
-Platnick & Ubick	M	United States of America	N America
-Platnick, Berniker & Bonaldo	M	United States of America	N America
-Platnick, Dupérré & Berniker	M	United States of America	N America
-Platnick, Dupérré, Berniker & Bonaldo	M	United States of America	N America
-Platnick, Dupérré, Ott & Kranz-Baltensperger	M	United States of America	N America
-Platnick, Dupérré, Ott, Baehr & Kranz-Baltensperger	M	United States of America	N America
-Platnick, Grismado & Ramírez	M	United States of America	N America
-Platnick, Ovtsharenko & Murphy	M	United States of America	N America
-Platnick, Shadab & Sorkin	M	United States of America	N America
-Prentice & Redak	M	United States of America	N America
-Reichling	M	United States of America	N America
-Reichling & West	M	United States of America	N America
-Reiskind	M	United States of America	N America
-Richman	M	United States of America	N America
-Roth	M	United States of America	N America
-Roth & Brown	M	United States of America	N America
-Sargeant & Agnarsson	F	United States of America	N America
-Sarno	F	United States of America	N America
-Satler & Hedin	M	United States of America	N America
-Saucedo, Ubick & Griswold	F	United States of America	N America
-Sauer	M	United States of America	N America
-Sauer & Platnick	M	United States of America	N America
-Schick	M	United States of America	N America
-Sedgwick	M	United States of America	N America
-Shear	M	United States of America	N America
-Sierwald	F	United States of America	N America
-Slowik	M	United States of America	N America
-Smith, Agnarsson & Grinsted	F	United States of America	N America
-Stocks	M	United States of America	N America
-Stone	M	United States of America	N America
-Stratton	F	United States of America	N America
-Traw	M	United States of America	N America
-Ubick	M	United States of America	N America
-Ubick & Griswold	M	United States of America	N America
-Ubick & Platnick	M	United States of America	N America
-Uetz & Dondale	M	United States of America	N America
-Unzicker	M	United States of America	N America
-Van Patten & Agnarsson	F	United States of America	N America
-Wallace	M	United States of America	N America
-Wallace & Exline	M	United States of America	N America
-Womersley	F	United States of America	N America
-Costa	M	Uruguay	S America
-Costa & Capocasale	M	Uruguay	S America
-Costa & Ruiz	F	Uruguay	S America
-Laborda, Ramírez & Pizarro-Araya	M	Uruguay	S America
-Montes de Oca & Pérez-Miles	F	Uruguay	S America
-Montes de Oca, D'Elía & Pérez-Miles	F	Uruguay	S America
-Panzera, Perdomo & Pérez-Miles	F	Uruguay	S America
-Perafán & Pérez-Miles	M	Uruguay	S America
-Perafán, Galvis & Gutiérrez	M	Uruguay	S America
-Perafán, Galvis & Pérez-Miles	M	Uruguay	S America
-Pérez-Miles	M	Uruguay	S America
-Pérez-Miles & Locht	M	Uruguay	S America
-Pérez-Miles & Weinmann	M	Uruguay	S America
-Pérez-Miles, Bonaldo & Miglio	M	Uruguay	S America
-Pérez-Miles, Costa & Montes de Oca	M	Uruguay	S America
-Pérez-Miles, Gabriel & Gallon	M	Uruguay	S America
-Pérez-Miles, Miglio & Bonaldo	M	Uruguay	S America
-Utochkin	M	USSR	Asia
-Fet	M	USSR-Russia_Turkmenistan, but United States of America since 80th	Asia
-Mcheidze	F	USSR=Georgia	Asia
-Nenilin	M	Uzbekistan	Asia
-Nenilin & Fet	M	Uzbekistan	Asia
-González-Sponga	M	Venezuela	S America
-FitzPatrick	M	Zimbabwe	Africa

@@ -41,23 +41,33 @@ db_authors <- read.csv(file = "Data/db_authors.csv", header = TRUE, sep = "\t", 
 # Cleaning names ----------------------------------------------------------
 
 # Trim white spaces if needed
-db_names$author  <- gsub("\\s+", " ", db_names$author) # Replace multiple spaces with a single space
+db_names$author  <- gsub("\\s+", " ", db_names$author)  # Replace multiple spaces with a single space
 db_names$author  <- gsub("\\s+$", "", db_names$author)  # Remove trailing space at the end of the string
 
 db_authors$Name  <- gsub("\\s+", " ", db_authors$Name)  # Replace multiple spaces with a single space
 db_authors$Name  <- gsub("\\s+$", "", db_authors$Name)  # Remove trailing space at the end of the string
 
+db_authors$Country  <- gsub("\\s+", " ", db_authors$Country)  # Replace multiple spaces with a single space
+db_authors$Country  <- gsub("\\s+$", "", db_authors$Country)  # Remove trailing space at the end of the string
+
 # db_authors: Separate the first name and subset
 db_authors <- db_authors |>
-  dplyr::mutate(first_name = sub(",.*| &.*", "", Name)) |> 
-  dplyr::distinct(first_name, .keep_all = TRUE)
+  dplyr::mutate(first_name = sub(",.*| &.*", "", Name)) 
+
+# create an unique ID based on country and sex to identify multi-name authors
+db_authors$ID <- paste(db_authors$first_name,db_authors$Sex,db_authors$Country, sep = "_")
+
+# # take distinct
+# db_authors <- db_authors |> 
+#   dplyr::distinct(ID, .keep_all = TRUE)
 
 # Calculate proportion of etymologies by author ---------------------------
 
 # db_name: Separate the first name and select relevant columns
 db_names <- db_names |>
   dplyr::mutate(first_name = sub(",.*| &.*", "", author)) |>
-  dplyr::select(first_name,
+  dplyr::select(author, 
+                first_name,
                 year,
                 size,
                 shape,
@@ -71,40 +81,183 @@ db_names <- db_names |>
                 pastCulture,
                 others)
 
-
 ncol_db_names <- ncol(db_names)
 
-#Remove no meaning etymologies
-db_names <- db_names[rowSums(db_names[, 3 : ncol_db_names])>0,]
+db_authors <- db_authors |>
+  dplyr::mutate_if(is.character, as.factor)
+ 
+for(i in 1 : nlevels(db_authors$ID)){
+  
+  db_i <- db_authors[db_authors$ID == levels(db_authors$ID)[i],]
 
-i=1
-for(i in 1:nrow(db_authors)){
+  db_names_i <- db_names[db_names$author %in% as.character(db_i$Name),]
   
-  name_i <- db_authors[i,]$first_name
+  colSums_i     <- colSums(db_names_i[, 4 : ncol_db_names])
+  rowSum_i      <- sum(colSums_i)
+  year_min_i    <- min(db_names_i$year, na.rm = TRUE)
+  year_max_i    <- max(db_names_i$year, na.rm = TRUE)
+  year_range_i  <- year_max_i-year_min_i
   
-  db_names_i <- db_names[db_names$first_name %in% name_i,]
+  #Store
+      if(i > 1) {
+        db_analysis2 <- c(name = as.character(db_i$first_name)[1], 
+                          ID   = as.character(db_i$ID)[1], 
+                          sex = as.character(db_i$Sex)[1], 
+                          country = as.character(db_i$Country)[1], 
+                          continent = as.character(db_i$Continent)[1], 
+                          colSums_i, 
+                          tot = rowSum_i, 
+                          year_min = year_min_i, 
+                          year_max = year_max_i, 
+                          year_range = year_range_i)
+        
+        db_analysis  <- rbind(db_analysis, db_analysis2)
+        
+      } else {
+        db_analysis <- c(name = as.character(db_i$first_name)[1], 
+                         ID   = as.character(db_i$ID)[1], 
+                         sex = as.character(db_i$Sex)[1], 
+                         country = as.character(db_i$Country)[1], 
+                         continent = as.character(db_i$Continent)[1], 
+                         colSums_i, 
+                         tot = rowSum_i, 
+                         year_min = year_min_i, 
+                         year_max = year_max_i, 
+                         year_range = year_range_i)
+      }
+} 
+
+# Set the final database
+db_analysis <- data.frame(db_analysis)
+db_analysis[,6:ncol(db_analysis)] <- apply(db_analysis[,6:ncol(db_analysis)],2,as.numeric)
+rownames(db_analysis) <- NULL
+
+db_analysis <- db_analysis |> 
+  dplyr::mutate_if(is.character, as.factor)
+
+head(db_analysis,5)
+
+# double-check very longeve authors ---------------------------------------
+
+db_check <- db_analysis[db_analysis$year_range > 50,] ; db_check <- droplevels(db_check)
+
+dev.off()
+par(mfrow = c(5,6), mar = c(rep(2,4)))
+for(i in 1 : nlevels(db_check$ID)){ 
   
-  colSums_i <- colSums(db_names_i[,3 : ncol_db_names])
+  db_i <- db_names[db_names$author %in% db_authors[db_authors$ID == levels(db_check$ID)[i],]$Name,]
+  dotchart(db_i$year, main = db_i$first_name[1])
+
+}
+
+#after checking WSC: Butler, Edwards, González, Hirst, Machado, Mcheidze, Miller, Müller, Rossi, Saito, Schmidt, Smith, Wang
+
+db_check <- db_check[db_check$name %in% c("Butler", 
+                                          "Edwards", 
+                                          "González", 
+                                          "Hirst", 
+                                          "Machado", "
+                                          Mcheidze", 
+                                          "Miller", 
+                                          "Müller", 
+                                          "Rossi", 
+                                          "Saito", 
+                                          "Schmidt", 
+                                          "Smith", 
+                                          "Wang"),]
+db_check <- droplevels(db_check)
+
+dev.off()
+par(mfrow = c(4,4), mar = c(rep(2,4)))
+for(i in 1 : nlevels(db_check$ID)){ 
   
-  rowSum_i <- sum(colSums_i)
+  db_i <- db_names[db_names$author %in% db_authors[db_authors$ID == levels(db_check$ID)[i],]$Name,]
+  dotchart(db_i$year, main = db_i$first_name[1])
   
 }
 
+year_split <- c(1900,1990,1980,1960,2000,1990,1900,1810,1960,1940,1960,1970)
 
-# reorganize the dataset
+db_check <- data.frame(ID = db_check$ID, 
+                       Name = db_check$name, 
+                       year_split, 
+                       sex = db_check$sex,
+                       country = db_check$country,
+                       continent = db_check$continent)
 
-db2 <- db2 %>% dplyr::select(year,
-                             size,
-                             shape,
-                             colour,
-                             behaviour,
-                             ecology,
-                             geography,
-                             scientists,
-                             otherPeople,
-                             modernCulture,
-                             pastCulture,
-                             others) %>% data.frame
+# Correct the names that are multiple authors
+
+db_analysis <- db_analysis[!db_analysis$ID %in% db_check$ID,] #remove the uncorrect assignment from the analysis database
+
+
+for(i in 1 : nlevels(db_check$ID)){
+  
+  db_i <- db_check[db_check$ID == levels(db_check$ID)[i],]
+  
+  db_names_i <- db_names[db_names$author %in% as.character(db_i$Name),]
+  
+  db_names_before <- db_names_i[db_names_i$year < db_i$year_split, ]
+  db_names_after  <- db_names_i[db_names_i$year > db_i$year_split, ]
+  
+  
+  colSums <- rbind(colSums(db_names_before[, 4 : ncol_db_names]), colSums(db_names_after[, 4 : ncol_db_names]))
+  rowSum  <- rowSums(colSums)
+  min     <-  c(min(db_names_before$year, na.rm = TRUE), min(db_names_after$year, na.rm = TRUE))
+  max     <-  c(min(db_names_before$year, na.rm = TRUE), min(db_names_after$year, na.rm = TRUE))
+  
+  db_analysis_i <- cbind(name = paste(db_names_i$first_name[1:2], 1:2),
+                         ID   = paste(rep(db_i$ID,2), 1:2),
+                         sex  = as.character(db_i$sex)[1], 
+                         country = as.character(db_i$country)[1], 
+                         continent = as.character(db_i$continent)[1],
+                         colSums, 
+                         tot = rowSum,
+                         year_min = min, 
+                         year_max = max,
+                         year_range = max - min)
+  
+  db_analysis <- rbind(db_analysis, db_analysis_i)
+ 
+} 
+
+# Set the final database
+db_analysis <- db_analysis |> 
+  dplyr::mutate_if(is.character, as.numeric)
+
+tail(db_analysis, 30)
+
+str(db_analysis)
+
+### clean the workspace
+all_objects <- ls() ; keep_objects <- c("db_analysis", "db_names", "db_authors")
+
+# Remove all objects except the specified ones
+rm(list = setdiff(all_objects, keep_objects)) ; rm(all_objects, keep_objects)
+
+# Group etymologies by Type (see Mammola et al., 2023 ZJLS) ---------------
+
+db_analysis <- db_analysis |>
+  dplyr::mutate(
+    morphology = size + shape + colour,  
+    ecology2 = behaviour + ecology,
+    people = scientists + otherPeople,
+    culture = modernCulture + pastCulture)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 # General statistics ------------------------------------------------------
