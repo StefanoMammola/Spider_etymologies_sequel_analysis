@@ -14,7 +14,7 @@
 # Loading R packages ------------------------------------------------------
 
 if(!require("pacman")) {install.packages("pacman")}
-pacman::p_load("dplyr","ggplot2","tibble")
+pacman::p_load("dplyr","forcats","ggplot2","performance","tibble","tidyr")
 
 # Script settings -----------------------------------------------------------
 theme_set(theme_bw())
@@ -150,14 +150,15 @@ for(i in 1 : nlevels(db_check$ID)){
 
 }
 
-#after checking WSC: Butler, Edwards, González, Hirst, Machado, Mcheidze, Miller, Müller, Rossi, Saito, Schmidt, Smith, Wang
-
-db_check <- db_check[db_check$name %in% c("Butler", 
+#after checking WSC: Butler, Costa, Lucas, Edwards, González, Hirst, Machado, Mcheidze, Miller, Müller, Rossi, Saito, Schmidt, Smith, Wang
+db_check <- db_check[db_check$name %in% c("Butler",
+                                          "Costa",
                                           "Edwards", 
                                           "González", 
-                                          "Hirst", 
-                                          "Machado", "
-                                          Mcheidze", 
+                                          "Hirst",
+                                          "Lucas",
+                                          "Machado", 
+                                          "Mcheidze", 
                                           "Miller", 
                                           "Müller", 
                                           "Rossi", 
@@ -176,7 +177,7 @@ for(i in 1 : nlevels(db_check$ID)){
   
 }
 
-year_split <- c(1900,1990,1980,1960,2000,1990,1900,1810,1960,1940,1960,1970)
+year_split <- c(1900,1950,1990,1980,1960,1900,2000,1990,1990,1900,1810,1960,1940,1960,1970)
 
 db_check <- data.frame(ID = db_check$ID, 
                        Name = db_check$name, 
@@ -186,9 +187,7 @@ db_check <- data.frame(ID = db_check$ID,
                        continent = db_check$continent)
 
 # Correct the names that are multiple authors
-
 db_analysis <- db_analysis[!db_analysis$ID %in% db_check$ID,] #remove the uncorrect assignment from the analysis database
-
 
 for(i in 1 : nlevels(db_check$ID)){
   
@@ -220,7 +219,12 @@ for(i in 1 : nlevels(db_check$ID)){
  
 } 
 
-# Set the final database
+### clean the workspace
+all_objects <- ls() ; keep_objects <- c("db_analysis", "db_names", "db_authors")
+rm(list = setdiff(all_objects, keep_objects)) ; rm(all_objects, keep_objects)
+
+# Set and check the final database --------------------------------------------------
+
 db_analysis <- db_analysis |> 
   dplyr::mutate_if(is.character, as.numeric)
 
@@ -228,118 +232,271 @@ tail(db_analysis, 30)
 
 str(db_analysis)
 
-### clean the workspace
-all_objects <- ls() ; keep_objects <- c("db_analysis", "db_names", "db_authors")
-
-# Remove all objects except the specified ones
-rm(list = setdiff(all_objects, keep_objects)) ; rm(all_objects, keep_objects)
-
-# Group etymologies by Type (see Mammola et al., 2023 ZJLS) ---------------
-
+# Group etymologies by Type (see Mammola et al., 2023 ZJLS)
 db_analysis <- db_analysis |>
   dplyr::mutate(
     morphology = size + shape + colour,  
     ecology2 = behaviour + ecology,
     people = scientists + otherPeople,
-    culture = modernCulture + pastCulture)
+    culture = modernCulture + pastCulture + others)
+
+# Remove etymologies for which we didn't find a meaning
+db_analysis <- db_analysis[db_analysis$tot > 0,] #removed 5 observations
+
+# Remove missing genders and rename
+db_analysis <- db_analysis[db_analysis$sex != "?",] #removed 12 observations
+
+db_analysis <- droplevels(db_analysis)
+
+db_analysis <- db_analysis |>
+        dplyr::mutate(gender = dplyr::recode(sex, F = "Female", M = "Male"))
+
+# General plots & stats ------------------------------------------------------
+
+# N authors by Continent
+table(db_analysis$continent)
+
+# N authors by Gender
+table(db_analysis$gender)
+
+##### plot N authors by continent & gender
+(plot_1 <- 
+    table(db_analysis$continent, db_analysis$gender) |> 
+    data.frame() |> 
+    dplyr::mutate(continent = forcats::fct_relevel(Var1, c("Europe", "Asia", "N America", "S America", "Oceania", "Africa"))) |>
+    dplyr::mutate(gender = dplyr::recode(Var2, F = "Female", M = "Male")) |>
+    ggplot2::ggplot(aes(y = Freq, x = continent, fill = gender))+
+    geom_bar(stat="identity", colour = "grey5", size = .4)+
+    labs(x = NULL, 
+         y = "Number of authors")+
+    scale_fill_manual("",values = c("purple","grey20"))+
+    #scale_x_discrete(guide = guide_axis(n.dodge = 2))+
+    theme(legend.position = c(0.8, 0.7))
+)
+#####
+
+db_analysis_temporal <- db_names |> 
+                    dplyr::select(author, year, scientists, otherPeople) |>
+                    dplyr::left_join(db_authors |> 
+                                           dplyr::rename("author" = "Name") |>
+                                           dplyr::select(author, Sex, Continent),
+                                     by = "author",
+                                     relationship = "many-to-many") |> 
+                    dplyr::mutate(continent = forcats::fct_relevel(Continent, 
+                                                                   c("Asia", "Africa", "Europe", "N America", "S America", "Oceania"))) |>
+                    dplyr::mutate(gender = dplyr::recode(Sex, F = "Female", M = "Male")) |>
+                    dplyr::select(author,gender,continent,year, scientists, otherPeople) |> 
+                    dplyr::mutate(people = scientists + otherPeople) |> 
+                    na.omit()
+
+# Remove missing genders and NA
+db_analysis_temporal <- db_analysis_temporal[db_analysis_temporal$gender != "?",]
+db_analysis_temporal <- droplevels(db_analysis_temporal)
+
+(plot_2 <- 
+table(db_analysis_temporal$year,db_analysis_temporal$gender,db_analysis_temporal$continent) |>
+  data.frame() |>
+  dplyr::rename("year" = "Var1","gender" = "Var2", "instances" = "Freq") |>
+  dplyr::mutate(year = as.numeric(as.character(year))) |>
+  ggplot2::ggplot( aes(x = year, y = instances, color = gender, group = gender)) +
+  facet_wrap( ~ Var3, nrow = 3, ncol = 3)+ 
+  geom_line(size = .5)+
+  scale_x_continuous(breaks = seq(from=1757,to=2010,by=60))+
+  scale_color_manual("",values = c("purple","grey20"))+
+  labs(x = NULL, 
+       y = "Species descriptions")
+)
+
+db_plot_3 <- db_analysis_temporal[db_analysis_temporal$people > 0, ] |> 
+  droplevels()
+
+(plot_3 <- 
+    table(db_plot_3$year,db_plot_3$gender,db_plot_3$continent) |>
+    data.frame() |>
+    dplyr::rename("year" = "Var1","gender" = "Var2", "continent" = "Var3", "instances" = "Freq") |>
+    dplyr::mutate(year = as.numeric(as.character(year))) |>
+    ggplot2::ggplot( aes(x = year, y = instances, color = gender, group = gender)) +
+    facet_wrap( ~ continent, nrow = 3, ncol = 3)+ 
+    geom_line(size = .5)+
+    scale_x_continuous(breaks = seq(from=1757,to=2010,by=60))+
+    scale_color_manual("",values = c("purple","grey20"))+
+    labs(x = NULL, 
+         y = "Number of species dedicated to people")
+)
+
+rm(db_plot_3) #clean
+
+# Regression analysis -----------------------------------------------------
+db_analysis <- na.omit(db_analysis)
+
+#People
+m1 <- glm(cbind(people,tot) ~ gender + scale(year_min) + scale(year_range) + continent,
+          family = binomial(link = "logit"), data = db_analysis)
+
+summary(m1)
+performance::check_overdispersion(m1)
+performance::check_collinearity(m1)
+summary(aov(m1))
+
+(plot_trend <- 
+    ggplot2::ggplot(db_analysis, aes(x = year_min, y = people/tot, fill = gender, color = gender, size = year_range)) + 
+    #facet_wrap( ~ continent, nrow = 3, ncol = 3, scale = "free")+
+    geom_point(alpha = 0.6, shape = 21) +
+    geom_smooth(se = TRUE, 
+                method = "glm", 
+                formula = y ~ x,
+                method.args = list(family = binomial(link = "logit")), size = 1, alpha = 0.2) +
+    scale_color_manual("",values = c("purple","grey20"))+
+    scale_fill_manual("",values = c("purple","grey20"))+
+    scale_size("Years of\nactivity", breaks = c(1,20,40,60), labels = c(1,20,40,60))+
+    labs(x = "Year of first species description", 
+         y = "Proportion of etymologies dedicated to people")
+)
+
+#Scientists
+m1bis <- glm(cbind(scientists,tot) ~ sex + scale(year_min) + scale(year_range) + continent,
+          family = binomial(link = "logit"), data = db_analysis)
+
+summary(m1bis)
+performance::check_overdispersion(m1bis)
+summary(aov(m1bis))
+
+(plot_trend <- ggplot2::ggplot(db_analysis, aes(x = year_min, y = scientists/tot, fill = sex, color = sex)) + 
+    #facet_wrap( ~ continent, nrow = 3, ncol = 3, scale = "free")+
+    geom_point(alpha = 1, shape = 19, size = 2) +
+    geom_smooth(se = TRUE, 
+                method = "glm", 
+                formula = y ~ x,
+                method.args = list(family = binomial(link = "logit"))) +
+    labs(x = "Year of first species description", 
+         y = "Proportion"))
+
+(plot_trend <- ggplot2::ggplot(db_analysis, aes(x = year_range, y = scientists/tot, fill = sex, color = sex)) + 
+    #facet_wrap( ~ continent, nrow = 3, ncol = 3, scale = "free")+
+    geom_point(alpha = 1, shape = 19, size = 2) +
+    geom_smooth(se = TRUE, 
+                method = "glm", 
+                formula = y ~ x,
+                method.args = list(family = binomial(link = "logit"))) +
+    labs(x = "Number of years of activity", 
+         y = "Proportion"))
 
 
+#People
+m1ter <- glm(cbind(otherPeople,tot) ~ sex + scale(year_min) + continent,
+          family = binomial(link = "logit"), data = db_analysis)
+
+summary(m1ter)
+performance::check_overdispersion(m1ter)
+summary(aov(m1ter))
+
+(plot_trend <- ggplot2::ggplot(db_analysis, aes(x = year_min, y = otherPeople/tot, fill = sex, color = sex)) + 
+    #facet_wrap( ~ continent, nrow = 3, ncol = 3, scale = "free")+
+    geom_point(alpha = 1, shape = 19, size = 2) +
+    geom_smooth(se = TRUE, 
+                method = "glm", 
+                formula = y ~ x,
+                method.args = list(family = binomial(link = "logit"))) +
+    labs(x = "Year of first species description", 
+         y = "Proportion"))
 
 
+ggplot2::ggplot(db_analysis, aes(x = sex, y = otherPeople/tot)) + 
+  #facet_wrap( ~ continent, nrow = 3, ncol = 3, scale = "free")+
+  geom_boxplot()
+
+ggplot2::ggplot(db_analysis, aes(x = sex, y = scientists/tot)) + 
+  #facet_wrap( ~ continent, nrow = 3, ncol = 3, scale = "free")+
+  geom_boxplot()
 
 
+#Ecology
+m2 <- glm(cbind(ecology2,tot) ~ sex + continent + year_range,
+          family = binomial(link = "logit"), data = db_analysis)
 
+summary(m2)
 
+performance::check_overdispersion(m2)
 
+(plot_trend2 <- ggplot2::ggplot(db_analysis, aes(x = year_range, y = ecology2/tot)) + 
+    facet_wrap( ~ continent, nrow = 3, ncol = 3, scale = "free")+
+    geom_point(alpha = 1, shape = 19, size = 2) +
+    geom_smooth(se = TRUE, 
+                method = "glm", 
+                formula = y ~ x,
+                method.args = list(family = binomial(link = "logit"))) +
+    labs(x = "Number of years of activity", 
+         y = "Proportion of ecology etymologies"))
 
+#Morphology
+m3 <- glm(cbind(morphology,tot) ~ sex + continent + year_range,
+          family = binomial(link = "logit"), data = db_analysis)
 
+summary(m3)
 
+performance::check_overdispersion(m3)
 
+m3bis <- glm(cbind(morphology,tot) ~ sex + continent + year_range,
+          family = quasibinomial(link = "logit"), data = db_analysis)
 
+summary(m3bis)
 
+(plot_trend3 <- ggplot2::ggplot(db_analysis, aes(x = year_range, y = morphology/tot)) + 
+    facet_wrap( ~ continent, nrow = 3, ncol = 3, scale = "free")+
+    geom_point(alpha = 1, shape = 19, size = 2) +
+    geom_smooth(se = TRUE, 
+                method = "glm", 
+                formula = y ~ x,
+                method.args = list(family = binomial(link = "logit"))) +
+    labs(x = "Number of years of activity", 
+         y = "Proportion of morphology etymologies"))
 
+#Culture
+m4 <- glm(cbind(culture,tot) ~ sex + continent + year_range,
+          family = binomial(link = "logit"), data = db_analysis)
 
+summary(m4)
 
-# General statistics ------------------------------------------------------
+performance::check_overdispersion(m4)
 
-# Number of species
-length(unique(db$GenSp))
+m4bis <- glm(cbind(culture,tot) ~ sex + continent + year_range,
+             family = quasibinomial(link = "logit"), data = db_analysis)
 
-# Number of subspecies 
-nrow(db)-length(unique(db$GenSp))
+summary(m4bis)
 
-# Number of unique species etymologies
-length(unique(db$species))
+(plot_trend4 <- ggplot2::ggplot(db_analysis, aes(x = year_range, y = culture/tot)) + 
+    facet_wrap( ~ continent, nrow = 3, ncol = 3, scale = "free")+
+    geom_point(alpha = 1, shape = 19, size = 2) +
+    geom_smooth(se = TRUE, 
+                method = "glm", 
+                formula = y ~ x,
+                method.args = list(family = binomial(link = "logit"))) +
+    labs(x = "Number of years of activity", 
+         y = "Proportion of morphology etymologies"))
 
-# Yearly range of the database
-range(db$year)
+#Geography
+m5 <- glm(cbind(geography,tot) ~ sex + continent + year_range,
+          family = binomial(link = "logit"), data = db_analysis)
 
-# Most prolific authors
-authors <- do.call("c",str_split(db$author, c(", "))) #separate author by comma
-authors <- do.call("c",str_split(authors, c(" & "))) #separate author by &
-authors <- data.frame(sort(table(authors), decreasing = TRUE))
-head(authors)
+summary(m5)
 
-# Type of check
-table(db$Source)
-table(db$Source) / sum(table(db$Source)) #%
+performance::check_overdispersion(m5)
 
-# Etymology counts
-nrow(db) - nrow(db[db$N_meanings>0,]) #no etymology
-nrow(db) - (nrow(db) - nrow(db[db$N_meanings>0,])) #etymology
+m5bis <- glm(cbind(geography,tot) ~ sex + continent + year_range,
+             family = quasibinomial(link = "logit"), data = db_analysis)
 
-# Number of meanings
-table(db$N_meanings) #1 meaning
-sum(table(db$N_meanings)[c(3:5)]) #>1 meaning  
-sum(table(db$N_meanings)[c(3:5)])/table(db$N_meanings)[2] # % > 1 meanings
+summary(m5bis)
 
-# Total distribution of Etymologies 
-sum_ety <- db[db$N_meanings>0,] %>% 
-               dplyr::select(size,
-                             shape,
-                             colour,
-                             behaviour,
-                             ecology,
-                             geography,
-                             scientists,
-                             otherPeople,
-                             modernCulture,
-                             pastCulture,
-                             others)
-sum_ety[is.na(sum_ety)] <- 0
+(plot_trend5 <- ggplot2::ggplot(db_analysis, aes(x = year_range, y = geography/tot)) + 
+    facet_wrap( ~ continent, nrow = 3, ncol = 3, scale = "free")+
+    geom_point(alpha = 1, shape = 19, size = 2) +
+    geom_smooth(se = TRUE, 
+                method = "glm", 
+                formula = y ~ x,
+                method.args = list(family = quasibinomial(link = "logit"))) +
+    labs(x = "Number of years of activity", 
+         y = "Proportion of morphology etymologies"))
 
-(sum_ety <- apply(sum_ety, 2, sum))
-
-(N_type <- c(sum(sum_ety[1:3]),
-  sum(sum_ety[4:5]),
-  sum_ety[6],
-  sum(sum_ety[7:8]),
-  sum(sum_ety[9:10]),
-  sum_ety[11]))
-
-(N_type <- c(sum(sum_ety[1:3]),
-             sum(sum_ety[4:5]),
-             sum_ety[6],
-             sum(sum_ety[7:8]),
-             sum(sum_ety[9:10]),
-             sum_ety[11]))/sum(N_type)
-
-bar_ety <- data.frame(
-  Type = as.factor(Names_variables),
-  N = N_type,
-  Perc = paste0(round(N_type/sum(N_type)*100,2), rep(" %", length(Names_variables))))
-      
-bar_ety$Type <- as.factor(bar_ety$Type)
-bar_ety$Type <- factor(bar_ety$Type, levels = Names_variables)
-
-(plot_type <- ggplot(bar_ety, aes(y= N, x= Type ))+
-    geom_bar(stat="identity", colour = "grey5", fill = COL, size = .4) +
-    labs(title="A",
-         x=NULL, 
-         y = "Frequency") +
-    geom_text(aes(label=Perc), vjust=1.6, color="white", size=3.5)+
-    scale_x_discrete(guide = guide_axis(n.dodge = 2))+
-    theme_custom() + theme(axis.text.x = element_text(size = 10)))
 
 ## ------------------------------------------------------------------------
 # What are the most frequent species names?
