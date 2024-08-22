@@ -304,7 +304,7 @@ table(db_analysis_temporal$year,db_analysis_temporal$gender,db_analysis_temporal
   scale_x_continuous(breaks = seq(from=1757,to=2010,by=60))+
   scale_color_manual("",values = c("purple","grey20"))+
   labs(x = NULL, 
-       y = "Species descriptions")
+       y = "NUmber of species descriptions")
 )
 
 db_plot_3 <- db_analysis_temporal[db_analysis_temporal$people > 0, ] |> 
@@ -333,12 +333,12 @@ db_analysis <- na.omit(db_analysis)
 m1 <- glm(cbind(people,tot) ~ gender + scale(year_min) + scale(year_range) + continent,
           family = binomial(link = "logit"), data = db_analysis)
 
-summary(m1)
 performance::check_overdispersion(m1)
 performance::check_collinearity(m1)
 summary(aov(m1))
+summary(m1)
 
-(plot_trend <- 
+(plot_trend1 <- 
     ggplot2::ggplot(db_analysis, aes(x = year_min, y = people/tot, fill = gender, color = gender, size = year_range)) + 
     #facet_wrap( ~ continent, nrow = 3, ncol = 3, scale = "free")+
     geom_point(alpha = 0.6, shape = 21) +
@@ -354,60 +354,98 @@ summary(aov(m1))
 )
 
 #Scientists
-m1bis <- glm(cbind(scientists,tot) ~ sex + scale(year_min) + scale(year_range) + continent,
+m2 <- glm(cbind(scientists,tot) ~ gender + scale(year_min) + scale(year_range) + continent,
           family = binomial(link = "logit"), data = db_analysis)
 
-summary(m1bis)
-performance::check_overdispersion(m1bis)
-summary(aov(m1bis))
+performance::check_overdispersion(m2)
+performance::check_collinearity(m2)
+summary(aov(m2))
+summary(m2)
 
-(plot_trend <- ggplot2::ggplot(db_analysis, aes(x = year_min, y = scientists/tot, fill = sex, color = sex)) + 
+(plot_trend2 <- 
+    ggplot2::ggplot(db_analysis, aes(x = year_min, y = scientists/tot, fill = gender, color = gender, size = year_range)) + 
     #facet_wrap( ~ continent, nrow = 3, ncol = 3, scale = "free")+
-    geom_point(alpha = 1, shape = 19, size = 2) +
+    geom_point(alpha = 0.6, shape = 21) +
     geom_smooth(se = TRUE, 
                 method = "glm", 
                 formula = y ~ x,
-                method.args = list(family = binomial(link = "logit"))) +
+                method.args = list(family = binomial(link = "logit")), size = 1, alpha = 0.2) +
+    scale_color_manual("",values = c("purple","grey20"))+
+    scale_fill_manual("",values = c("purple","grey20"))+
+    scale_size("Years of\nactivity", breaks = c(1,20,40,60), labels = c(1,20,40,60))+
     labs(x = "Year of first species description", 
-         y = "Proportion"))
+         y = "Proportion of etymologies dedicated to scientists")
+)
 
-(plot_trend <- ggplot2::ggplot(db_analysis, aes(x = year_range, y = scientists/tot, fill = sex, color = sex)) + 
-    #facet_wrap( ~ continent, nrow = 3, ncol = 3, scale = "free")+
-    geom_point(alpha = 1, shape = 19, size = 2) +
-    geom_smooth(se = TRUE, 
-                method = "glm", 
-                formula = y ~ x,
-                method.args = list(family = binomial(link = "logit"))) +
-    labs(x = "Number of years of activity", 
-         y = "Proportion"))
-
-
-#People
-m1ter <- glm(cbind(otherPeople,tot) ~ sex + scale(year_min) + continent,
+#non-scientists
+m3 <- glm(cbind(otherPeople,tot) ~ gender + scale(year_min) + scale(year_range) + continent,
           family = binomial(link = "logit"), data = db_analysis)
 
-summary(m1ter)
-performance::check_overdispersion(m1ter)
-summary(aov(m1ter))
+performance::check_overdispersion(m3)
 
-(plot_trend <- ggplot2::ggplot(db_analysis, aes(x = year_min, y = otherPeople/tot, fill = sex, color = sex)) + 
+m3bis <- glm(cbind(otherPeople,tot) ~ gender + scale(year_min) + scale(year_range) + continent,
+          family = quasibinomial(link = "logit"), data = db_analysis)
+
+performance::check_collinearity(m3bis)
+summary(aov(m3bis))
+summary(m3bis)
+
+(plot_trend3 <- 
+    ggplot2::ggplot(db_analysis, aes(x = year_min, y = otherPeople/tot, size = year_range)) + 
     #facet_wrap( ~ continent, nrow = 3, ncol = 3, scale = "free")+
-    geom_point(alpha = 1, shape = 19, size = 2) +
-    geom_smooth(se = TRUE, 
+    geom_point(alpha = 0.6, fill = "grey20", shape = 21) +
+    geom_smooth(color = "orange",fill = "orange", 
+                se = TRUE, 
                 method = "glm", 
                 formula = y ~ x,
-                method.args = list(family = binomial(link = "logit"))) +
+                method.args = list(family = quasibinomial(link = "logit")), size = 1, alpha = 0.2) +
+    scale_color_manual("",values = c("purple","grey20"))+
+    scale_fill_manual("",values = c("purple","grey20"))+
+    scale_size("Years of\nactivity", breaks = c(1,20,40,60), labels = c(1,20,40,60))+
     labs(x = "Year of first species description", 
-         y = "Proportion"))
+         y = "Proportion of etymologies dedicated to non-scientists")
+)
 
 
-ggplot2::ggplot(db_analysis, aes(x = sex, y = otherPeople/tot)) + 
-  #facet_wrap( ~ continent, nrow = 3, ncol = 3, scale = "free")+
-  geom_boxplot()
 
-ggplot2::ggplot(db_analysis, aes(x = sex, y = scientists/tot)) + 
-  #facet_wrap( ~ continent, nrow = 3, ncol = 3, scale = "free")+
-  geom_boxplot()
+############################################################################
+
+# Combining & saving figures
+
+############################################################################
+
+pdf(file = "Figures/Figure_1.pdf", width = 5, height = 4)
+
+plot_1
+
+dev.off()
+
+pdf(file = "Figures/Figure_2.pdf", width = 8, height = 5)
+
+plot_2
+
+dev.off()
+
+
+pdf(file = "Figures/Figure_3.pdf", width = 16, height = 6)
+
+ggpubr::ggarrange(plot_trend1, plot_trend2, plot_trend3,
+                  common.legend = TRUE,
+                  hjust = 0,
+                  align = "h",
+                  labels = c("A", "B", "C"),
+                  ncol=3, nrow=1)
+
+dev.off()
+
+
+
+
+
+
+
+
+
 
 
 #Ecology
