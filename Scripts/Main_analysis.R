@@ -414,7 +414,7 @@ summary(m3bis)
 
 ############################################################################
 
-pdf(file = "Figures/Figure_1.pdf", width = 5, height = 4)
+pdf(file = "Figures/Figure_1.pdf", width = 5, height = 3)
 
 plot_1
 
@@ -437,14 +437,6 @@ ggpubr::ggarrange(plot_trend1, plot_trend2, plot_trend3,
                   ncol=3, nrow=1)
 
 dev.off()
-
-
-
-
-
-
-
-
 
 
 
