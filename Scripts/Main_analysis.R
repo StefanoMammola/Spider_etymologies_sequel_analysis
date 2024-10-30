@@ -14,7 +14,7 @@
 # Loading R packages ------------------------------------------------------
 
 if(!require("pacman")) {install.packages("pacman")}
-pacman::p_load("dplyr","forcats","ggplot2","performance","tibble","tidyr")
+pacman::p_load("BAT","dplyr","forcats","ggplot2","performance","tibble","tidyr")
 
 # Script settings -----------------------------------------------------------
 theme_set(theme_bw())
@@ -27,6 +27,8 @@ theme_update(
   axis.title = element_text(size = 12, colour = "grey10") #Size and color of text
 )
 
+set.seed(42)
+
 # Loading the main database ------------------------------------------------
 
 # Described associated with this publication:
@@ -36,6 +38,9 @@ db_names <- read.csv(file = "Data/db_etymology.csv", header = TRUE, sep = "\t", 
 
 # New database about authors gender and nationality
 db_authors <- read.csv(file = "Data/db_authors.csv", header = TRUE, sep = "\t", as.is = TRUE)
+
+# Database with a randomly sample number of eponyms dedicated to scientist and non scientist
+db_epo <- read.csv(file = "Data/sampled_eponyms.csv", header = TRUE, sep = "\t", as.is = TRUE)
 
 # Cleaning names ----------------------------------------------------------
 
@@ -231,6 +236,10 @@ tail(db_analysis, 30)
 
 str(db_analysis)
 
+# percentage female coauthors
+
+nrow(db_analysis[db_analysis$sex == "F",])/nrow(db_analysis)
+
 # Group etymologies by Type (see Mammola et al., 2023 ZJLS)
 db_analysis <- db_analysis |>
   dplyr::mutate(
@@ -251,6 +260,10 @@ db_analysis <- db_analysis |>
         dplyr::mutate(gender = dplyr::recode(sex, F = "Female", M = "Male"))
 
 # General plots & stats ------------------------------------------------------
+
+# average ± s.d. number of species description per author
+mean(db_analysis$tot, na.rm = TRUE) ; sd(db_analysis$tot, na.rm = TRUE)
+range(db_analysis$tot, na.rm = TRUE)
 
 # N authors by Continent
 table(db_analysis$continent)
@@ -390,11 +403,10 @@ summary(aov(m3bis))
 summary(m3bis)
 
 (plot_trend3 <- 
-    ggplot2::ggplot(db_analysis, aes(x = year_min, y = otherPeople/tot, size = year_range)) + 
+    ggplot2::ggplot(db_analysis, aes(x = year_min, y = otherPeople/tot, fill = gender, color = gender,size = year_range)) + 
     #facet_wrap( ~ continent, nrow = 3, ncol = 3, scale = "free")+
     geom_point(alpha = 0.6, fill = "grey20", shape = 21) +
-    geom_smooth(color = "orange",fill = "orange", 
-                se = TRUE, 
+    geom_smooth(se = TRUE, 
                 method = "glm", 
                 formula = y ~ x,
                 method.args = list(family = quasibinomial(link = "logit")), size = 1, alpha = 0.2) +
@@ -404,6 +416,113 @@ summary(m3bis)
     labs(x = "Year of first species description", 
          y = "Proportion of etymologies dedicated to non-scientists")
 )
+
+# Analysis on eponyms -----------------------------------------------------
+
+db_epo <- db_epo |> 
+  tidyr::separate_rows(Gender, sep = ";") |>
+  dplyr::mutate_if(is.character, as.factor)  # Splits rows by ";" when a couple of people are in the dedication
+
+db_epo <- db_epo[db_epo$Gender != "",] ; db_epo <- droplevels(db_epo)
+
+#Checking proportion of etymologies in the two groups
+
+(ratio_NonScientist <- table(db_epo$Gender,db_epo$Type)[1]/table(db_epo$Gender,db_epo$Type)[2]) # ratio M / F nonScientist
+(ratio_Scientist    <-table(db_epo$Gender,db_epo$Type)[3]/table(db_epo$Gender,db_epo$Type)[4]) # ratio M / F Scientist
+
+# Is this significant? 
+
+# We can test with a null model...
+ratio_NonScientist_exp <- c()
+ratio_Scientist_exp <- c()
+
+for(i in 1 : 999){
+
+  #randomize gender
+  NonScientist_i <- sample(c("M", "F"), size = nrow(db_epo[db_epo$Type == "NonScientist",]), replace = TRUE, prob = c(0.5, 0.5))
+  Scientist_i    <- sample(c("M", "F"), size = nrow(db_epo[db_epo$Type == "Scientist",]), replace = TRUE, prob = c(0.5, 0.5))
+  
+  
+  #recalculate
+  ratio_NonScientist_i <- table(NonScientist_i)[2] / table(NonScientist_i)[1]# ratio M / F nonScientist
+  ratio_Scientist_i    <- table(Scientist_i)[2] / table(Scientist_i)[1] # ratio M / F Scientist
+  
+  
+  #store
+  ratio_NonScientist_exp <- append(ratio_NonScientist_exp,ratio_NonScientist_i)
+  ratio_Scientist_exp    <- append(ratio_Scientist_exp,ratio_Scientist_i)
+  
+} 
+
+(sig1 <- round(BAT::ses(obs = ratio_Scientist, est = ratio_Scientist_exp, param = TRUE, p = TRUE),3))
+
+(sig2 <- round(BAT::ses(obs = ratio_NonScientist, est = ratio_NonScientist_exp, param = TRUE, p = TRUE),3))
+
+
+(ratio1 <- data.frame(ratio_Scientist_exp) |>
+    ggplot2::ggplot(aes(x = ratio_Scientist_exp))+
+    labs(x = "Male/female ratio in eponyms dedicated to scientists", y = NULL)+
+    geom_histogram(fill = "grey50", bins = 40)+
+    geom_segment(aes(x = ratio_Scientist, xend = ratio_Scientist, y = 0, yend = 100), 
+                 col = "grey10", linewidth = 1) +
+    geom_point(aes(x = ratio_Scientist, y = 100), color = "grey10", size = 3)+
+    annotate("text", x = 4, y = 300, 
+             label = paste0("SES = ",sig1[1]," ; p < 0.001"), color = "grey10", 
+             size = 4, hjust = 0.5))
+
+(ratio2 <- data.frame(ratio_NonScientist_exp) |>
+    ggplot2::ggplot(aes(x = ratio_NonScientist_exp))+
+    labs(x = "Male/female ratio in eponyms dedicated to non-scientists", y = NULL)+
+    geom_histogram(fill = "grey50", bins = 40)+
+    geom_segment(aes(x = ratio_NonScientist, xend = ratio_NonScientist), y = 0, yend = 27)+
+    geom_point(aes(x = ratio_NonScientist, y = 27), color = "grey10", size = 3)+
+    annotate("text", x = 1.5, y = 80, 
+             label = paste0("SES = ",sig2[1]," ; p < 0.001"), color = "grey10", 
+             size = 4, hjust = 0.5))
+
+
+# Difference between the two
+
+(observed_diff <- ratio_Scientist - ratio_NonScientist)
+
+# Is this significant? 
+
+# We can test with a null model...
+
+db_epo_i <- db_epo
+expected_diff <- c()
+
+for(i in 1 : 999){
+  #randomize gender
+  
+  db_epo_i$Gender <- sample(db_epo_i$Gender)
+    
+  #recalculate
+  (ratio_NonScientist_i <- table(db_epo_i$Gender,db_epo_i$Type)[1]/table(db_epo_i$Gender,db_epo$Type)[2]) # ratio M / F nonScientist
+  (ratio_Scientist_i <-table(db_epo_i$Gender,db_epo_i$Type)[3]/table(db_epo_i$Gender,db_epo$Type)[4]) # ratio M / F Scientist
+
+  expected_diff_i <- ratio_Scientist_i - ratio_NonScientist_i
+  
+  #store
+  expected_diff <- append(expected_diff,expected_diff_i)
+  
+} 
+
+#clean
+rm(db_epo_i,ratio_NonScientist_i,ratio_Scientist_i,expected_diff_i,i)
+
+(sig3 <- round(BAT::ses(obs = observed_diff, est = expected_diff, param = TRUE, p = TRUE),3))
+
+(ratio3 <- data.frame(expected_diff) |>
+  ggplot2::ggplot(aes(x = expected_diff))+
+  labs(x = "Difference in male/female ratio between scientist vs non-scientists eponyms", y = NULL)+
+  geom_histogram(fill = "grey50", bins = 40)+
+  geom_segment(aes(x = observed_diff, xend = observed_diff, y = 0, yend = 47), 
+               col = "grey10", linewidth = 1) +
+  geom_point(aes(x = observed_diff, y = 47), color = "grey10", size = 3)+
+  annotate("text", x = 2, y = 120, 
+           label = paste0("SES = ",sig3[1]," ; p < 0.001"), color = "grey10", 
+           size = 4, hjust = 0.5))
 
 ############################################################################
 
@@ -434,6 +553,19 @@ ggpubr::ggarrange(plot_trend1, plot_trend2, plot_trend3,
                   ncol=3, nrow=1)
 
 dev.off()
+
+
+pdf(file = "Figures/Figure_4.pdf", width = 16, height = 4)
+
+ggpubr::ggarrange(ratio1, ratio2, ratio3,
+                  common.legend = TRUE,
+                  hjust = 0,
+                  align = "h",
+                  labels = c("A", "B", "C"),
+                  ncol=3, nrow=1)
+
+dev.off()
+
 
 # 
 # 
