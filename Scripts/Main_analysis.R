@@ -382,9 +382,9 @@ summary(aov(m3bis))
 summary(m3bis)
 
 (plot_trend3 <- 
-    ggplot2::ggplot(db_analysis, aes(x = year_min, y = otherPeople/tot, fill = gender, color = gender,size = year_range)) + 
+    ggplot2::ggplot(db_analysis, aes(x = year_min, y = otherPeople/tot, fill = gender, color = gender, size = year_range)) + 
     #facet_wrap( ~ continent, nrow = 3, ncol = 3, scale = "free")+
-    geom_point(alpha = 0.6, fill = "grey20", shape = 21) +
+    geom_point(alpha = 0.6, shape = 21) +
     geom_smooth(se = TRUE, 
                 method = "glm", 
                 formula = y ~ x,
