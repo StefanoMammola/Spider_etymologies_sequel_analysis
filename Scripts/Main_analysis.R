@@ -280,8 +280,8 @@ table(db_analysis$gender)
     #scale_x_discrete(guide = guide_axis(n.dodge = 2))+
     theme(legend.position = c(0.8, 0.7))
 )
-#####
 
+##### Temporal plot
 db_analysis_temporal <- db_names |> 
                     dplyr::select(author, year, scientists, otherPeople) |>
                     dplyr::left_join(db_authors |> 
@@ -396,7 +396,6 @@ summary(m3bis)
          y = "Proportion of etymologies dedicated to non-scientists")
 )
 
-
 # Analysis on eponyms -----------------------------------------------------
 
 db_epo <- db_epo |> 
@@ -460,50 +459,6 @@ for(i in 1 : 999){
              label = paste0("SES = ",sig2[1]," ; p < 0.001"), color = "grey10", 
              size = 4, hjust = 0.5))
 
-
-# # Difference between the two
-# 
-# (observed_diff <- ratio_Scientist - ratio_NonScientist)
-# 
-# # Is this significant? 
-# 
-# # We can test with a null model...
-# 
-# db_epo_i <- db_epo
-# expected_diff <- c()
-# 
-# for(i in 1 : 999){
-#   #randomize gender
-#   
-#   db_epo_i$Gender <- sample(db_epo_i$Gender)
-#     
-#   #recalculate
-#   (ratio_NonScientist_i <- table(db_epo_i$Gender,db_epo_i$Type)[1]/table(db_epo_i$Gender,db_epo$Type)[2]) # ratio M / F nonScientist
-#   (ratio_Scientist_i <-table(db_epo_i$Gender,db_epo_i$Type)[3]/table(db_epo_i$Gender,db_epo$Type)[4]) # ratio M / F Scientist
-# 
-#   expected_diff_i <- ratio_Scientist_i - ratio_NonScientist_i
-#   
-#   #store
-#   expected_diff <- append(expected_diff,expected_diff_i)
-#   
-# } 
-# 
-# #clean
-# rm(db_epo_i,ratio_NonScientist_i,ratio_Scientist_i,expected_diff_i,i)
-# 
-# (sig3 <- round(BAT::ses(obs = observed_diff, est = expected_diff, param = TRUE, p = TRUE),3))
-# 
-# (ratio3 <- data.frame(expected_diff) |>
-#   ggplot2::ggplot(aes(x = expected_diff))+
-#   labs(x = "Difference in male/female ratio between scientist vs non-scientists eponyms", y = NULL)+
-#   geom_histogram(fill = "grey50", bins = 40)+
-#   geom_segment(aes(x = observed_diff, xend = observed_diff, y = 0, yend = 47), 
-#                col = "grey10", linewidth = 1) +
-#   geom_point(aes(x = observed_diff, y = 47), color = "grey10", size = 3)+
-#   annotate("text", x = 2, y = 120, 
-#            label = paste0("SES = ",sig3[1]," ; p < 0.001"), color = "grey10", 
-#            size = 4, hjust = 0.5))
-
 ############################################################################
 
 # Combining & saving figures
@@ -519,7 +474,6 @@ ggpubr::ggarrange(plot_1, plot_2,
                   labels = c("A", "B"),
                   ncol=2, nrow=1)
 
-
 dev.off()
 
 pdf(file = "Figures/Figure_2.pdf", width = 10, height = 10)
@@ -533,5 +487,4 @@ ggpubr::ggarrange(plot_trend2, plot_trend3,
                   ncol=2, nrow=2)
 
 dev.off()
-
-
+#End
